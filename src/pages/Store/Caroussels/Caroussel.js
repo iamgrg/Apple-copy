@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 
+// fonction qui calcul si il reste des cards hors du champs de l'ecran, et si 
+// il n'en reste qu'une, elle determine de combien il faut shift le caroussel 
+// pour que le bord droit de la dernière carte s'aligne avec la bord droit de l'écran.
+
 const checkEnd = (array, currentCard) => {
   let lengthLeft = 0;
   for (let i = currentCard; i < array.length; i++) {
@@ -32,6 +36,7 @@ const Caroussel = (props) => {
     console.log("CurrentCard :" + CurrentCard);
     console.log(infoCheck);
   });
+
 
   const shiftRight = () => {
     setStyleBtnLeft({
@@ -90,7 +95,9 @@ const Caroussel = (props) => {
 
   return (
     <div className="Caroussel">
-      <div className="CarousselTitle">Title</div>
+      <div className="CarousselTitle">
+        <strong>{props.title[0]}</strong>{props.title[1]}
+        </div>
       <div className="CarousselMain">
         <button className="left" style={styleBtnLeft} onClick={shiftLeft}>
           <div className="arrow" id="left"></div>

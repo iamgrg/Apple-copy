@@ -57,7 +57,6 @@ a {
 
 /* //////////////////////Miler/////////////////////////// */
 
-
 header{
     position: fixed;
     top : 0;
@@ -91,14 +90,19 @@ header a {
     font-weight: 400;
     color : #d6d6d6cb;
     font-size: 12px;
+    transition : linear 200ms;
 }
 
 header a:hover {
-    color : white
+    color : rgb(230, 230, 230);
+    transition : color linear 200ms;
 }
 
 /* ///////////////////header.css/////////////////// */
 
+.Apple{
+    margin-top: 42px;
+}
 
 .Panel {
     margin: 1vh 0;
@@ -240,15 +244,45 @@ header a:hover {
 
 /* ///////////////////Apple.css/////////////////// */
 
-.CarousselMain{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    align-items: center;
-    /* border : solid black; */
-    overflow: hidden;
-    width: 100vw;
-  }
+ .Store{
+        margin-top: 42px;
+        font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        background-color: #f5f5f7;
+    }
+.Store h1{
+    padding: 8vh 0 0 20% ;
+    font-size: 6vh;
+    color : grey;
+}
+.Store strong{
+    color : black;
+}
+.Caroussel{
+    margin-top : 10vh;
+}
+ .CarousselMain{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5vh;
+        padding: 0 20px;
+        align-items: center;
+        /* border : solid black; */
+        overflow: hidden;
+        width: 100vw;
+    }
+ .CarousselTitle{
+    box-sizing: content-box;
+    padding-left: 20%;
+    font-size: 25px;
+    color : grey;
+    }
+.Help .title {
+    font-size: 25px;
+    color : grey;
+    margin-bottom: 4vh;
+}
   
   .CarousselMain:hover > button {
      transform: scale(2);
@@ -256,7 +290,7 @@ header a:hover {
      transition: visibility transform linear 500ms;
   }
   .focus{
-    border-left : solid red;
+    /* border-left : solid red; */
     padding: 20px 0px;
     width: 60vw;
     display: flex;
@@ -267,13 +301,11 @@ header a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
     /* border : solid black; */
     transition: transform 400ms ease-in-out;
   }
   
   .WideCard, .SmallCard{
-    background-color: white;
     box-sizing: border-box;
     height: 500px;
     margin-right: 20px;
@@ -292,7 +324,8 @@ header a:hover {
     width: 200px;
   }
   .SmallCard{
-    width: 100px;
+    width: 400px;
+    font-size: 30px;
   }
   
   .Caroussel button{
@@ -329,6 +362,16 @@ header a:hover {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
+  .Help{
+      margin : 10vh 0 0 20%;
+  }
+
+  .twoCards :nth-child(2){
+      margin-top: 20px;
+  }
+  .Imgs{
+      display: flex;
+  }
 
 
 /* ///////////////////Caroussel.css/////////////////// */
@@ -360,7 +403,7 @@ footer{
     font-size: 1.5vh;
     border : none;
     background: none;
-    padding: 0.6vh 0px;
+    padding: 0.75vh 0px;
     margin : 0px;
 }
 .strong{
@@ -377,14 +420,29 @@ footer{
     text-decoration: underline;
     cursor: pointer;
 }
+
+.retailDiv .link{
+    background : none;
+    border : none;
+    color : rgb(40, 129, 204);
+    padding: 0;
+    margin: 0;
+    font-size: 1.5vh;
+}
+.retailDiv .link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 .retailDiv, .Copyright{
     width:  60%;
     margin : 0 auto;
     color : rgb(129, 129, 129);
-    font-size: 1.6vh;
+    font-size: 1.5vh;
 }
 .Copyright{
-    padding: 1vh 0 2vh 0;
+    padding: 1vh 0 4vh 0;
     display: flex;
     justify-content: space-between;
     vertical-align: baseline;
@@ -402,6 +460,9 @@ footer{
     padding-bottom: 1vh;
 }
 
+#privacyPol{
+    border : none !important;
+}
 
 
 /* ///////////////////Footer.css/////////////////// */

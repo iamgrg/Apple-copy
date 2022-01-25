@@ -1,9 +1,5 @@
 const Footer = () => {
 
-  const fonctionMaline = (text) => {
-    console.log(`<button className="${text}">${text}</button>`)
-  }
-
   return (
     <footer>
       <div className="footerSubDivContainer">
@@ -34,6 +30,7 @@ const Footer = () => {
           <button className="AppleBooks"> Apple Books</button>
           <button className="ApplePodcasts">Apple Podcasts </button>
           <button className="AppStore">App Store</button>
+          <br></br>
           <button className="strong Account">Account</button>
           <button className="AppleID"> Manage Your Apple ID</button>
           <button className="AppleStoreAccount"> Apple Store Account</button>
@@ -56,14 +53,17 @@ const Footer = () => {
         <button className="strong For Business">For Business</button>
         <button className="AppleandBusiness">Apple and Business</button>
         <button className="Shop for Business">Shop for Business</button>
+        <br></br>
         <button className="strong For Education">For Education</button>
         <button className="Apple and Education">Apple and Education</button>
         <button className="Shop for K-12">Shop for K-12</button>
         <button className="Shop for College">Shop for College</button>
+        <br></br>
         <button className="strong For Healthcare">For Healthcare</button>
         <button className="Apple in Healthcare">Apple in Healthcare</button>
         <button className="Health on Apple Watch">Health on Apple Watch</button>
         <button className="Health Records on iPhone">Health Records on iPhone</button>
+        <br></br>
         <button className="strong For Government">For Government</button>
         <button className="ShopForGovernment">Shop For Government</button>
         <button className="Shop for Veterans and Military">Shop for Veterans and Military</button>
@@ -77,6 +77,7 @@ const Footer = () => {
         <button className="Privacy">Privacy</button>
         <button className="Racial Equity and Justice">Racial Equity and Justice</button>
         <button className="Supplier Responsibility">Supplier Responsibility</button>
+        <br></br>
         <button className="strong About Apple">About Apple</button>
         <button className="Apple Leadership">Apple Leadership</button>
         <button className="Career Opportunities">Career Opportunities</button>
@@ -87,13 +88,13 @@ const Footer = () => {
         <button className="Business">Business</button></div>
       </div>
       <div className="retailDiv">
-        More ways to shop: Find an Apple Store or other retailer near you. Or
+        More ways to shop: <button className="link">Find an Apple Store</button> or <button className="link">other retailer</button> near you. Or
         call 1-800-MY-APPLE.
       </div>
       <div className="Copyright">
         <div>Copyright © 2022 Apple Inc. All rights reserved.</div>
         <div className="Legals">
-          <button>Privacy Policy</button>
+          <button id="privacyPol">Privacy Policy</button>
           <button>Terms of Use </button>
           <button>Sales and Refunds</button>
           <button>Legal Site Map</button>

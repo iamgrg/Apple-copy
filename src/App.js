@@ -9,8 +9,12 @@ import Iphone from "./pages/iPhone";
 import Mac from "./pages/Mac";
 import Panier from "./pages/Panier";
 import Store from "./pages/Store/Store.js";
+import homepods from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-40-homepodmini-202110.jpeg"
 
 function App() {
+  const style = {
+    backgroundImage: `url(${homepods})`
+  }
   return (
     <div className="App">
       <Router>

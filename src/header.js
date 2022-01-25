@@ -7,7 +7,7 @@ import apple from "./Assets/apple.svg"
 
 const Header = () => {
     return <header className="Header">
-        <Link to="/apple"><img src={apple} alt="apple"></img></Link>
+        <Link to="/apple"><img src={apple} className="logoApple" alt="apple"></img></Link>
         <Link to="/Store">Store</Link>
         <Link to="/Mac">Mac</Link>
         <Link to="/iPad">iPad</Link>
