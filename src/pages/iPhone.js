@@ -1,5 +1,5 @@
 const Iphone = () => {
-    return <div className="Iphone">Iphone</div>
-}
+  return <div className="Iphone">Iphone</div>;
+};
 
-export default Iphone
+export default Iphone;

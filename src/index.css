@@ -51,7 +51,7 @@ a:visited {
     text-decoration: none; 
    }
 a { 
-    text-decoration: none; 
+    text-decoration: none;
    }
 
 
@@ -71,6 +71,113 @@ header{
     display : flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.Panier{
+    box-sizing: border-box;
+    padding: 20px 20px 10px 20px;
+    z-index: 9;
+    height : 385px;
+    width : 286px;
+    position: absolute;
+    top: 48px;
+    right: 12%;
+    border : 1px solid #d2d2d7;
+    background-color: white;
+    border-radius : 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.Panier :first-child{
+    flex-grow: 2.5 !important;
+    border : none;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.Panier .info{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.Panier .text{
+    border : none;
+    padding-left: 20px;
+    color : black;
+}
+.Panier div:hover{
+    cursor: auto;
+    text-decoration: none !important;
+}
+
+.info .img{
+    height: 20%;
+    width: 20%;
+    border : solid #0071e3;
+}
+.CheckOut{
+    background-color: #0071e3;
+    border-radius: 10px;
+    height: 38px;
+    width: 100%;
+}
+
+.CheckOut .Link{
+    color : white;
+    font-size: 18px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 300;
+}
+.CheckOut:hover{
+    background-color: #2581dd;
+}
+.Bag{
+    border: none !important;
+    margin-top: 20px;
+}
+
+.Panier img{
+    width: 21px;
+    height: 21px;
+}
+.Panier div{
+    flex-grow: 1;
+    border-top : 1px solid #d2d2d7;
+    color : rgb(0, 130, 204);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.Panier div text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.arrow{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-left : 1px solid #d2d2d7 !important;
+    border-top : 1px solid #d2d2d7 !important;
+    transform: translate(-12px, 13px) skew(4deg,4deg) rotate(45deg);
+}
+header button{
+    z-index: 11;
+    border : none;
+    background-color: transparent;
+}
+header button:hover{
+    cursor: pointer;
+}
+header button:focus{
+    outline: none;
 }
 
 .Apple .top div{
@@ -376,6 +483,94 @@ header a:hover {
 
 /* ///////////////////Caroussel.css/////////////////// */
 
+
+.CheckOutPage{
+    margin-top : 42px;
+    border : solid gold;
+    padding : 0 20%;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.Intro{
+    margin-top: 15vh;
+    font-weight: 500;
+    margin-bottom: 5vh;
+}
+
+.Intro h1{
+    font-size : 5vh;
+}
+.Intro h2{
+    margin-top: 3vh;
+    font-size : 2vh;
+    font-weight: 400;
+    color : rgb(66, 66, 66)
+}
+
+.CheckOutPage .ItemCard{
+    border : solid red;
+    padding-bottom : 10vh;
+    display: flex;
+    height: 400px;
+}
+.CheckOutPage .ItemCard .Picture{
+    border : solid blue;
+    flex-grow : 1;
+
+}
+.CheckOutPage .ItemCard .Infos{
+    border : solid green;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice{
+    border : solid green;
+    height: 100%;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice .top{
+    display: flex;
+    justify-content: space-between;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice .remove{
+    float : right;
+}
+.CheckOutPage .ItemCard .Infos .AppleCare{
+    display: flex;
+    justify-content: space-between;
+    border : solid green;
+    height: 100%;
+}
+.CheckOutPage .ItemCard .Infos .GiftMessage{
+    display: flex;
+    justify-content: space-between;
+    border : solid green;
+    height: 100%;
+}
+.CheckOutPage .Final{
+    display : flex;
+}
+.CheckOutPage .Final :first-child{
+    flex-grow: 1;
+    border : solid brown;
+}
+.CheckOutPage .Final :nth-child(2){
+    flex-grow: 2;
+    border : solid yellow;
+}
+
+/* J'ai l'impression que le felx grow s'apllique aussi total et au prix faut changer les appelations */
+.CheckOutPage .Final .Bottom{
+    display : flex;
+    justify-content: space-between;
+    border : solid purple;
+}
+.CheckOutPage .Final .Bottom div{
+    width: auto;
+    border: solid black;
+}
+
+
+/* ///////////////////CheckOut.css/////////////////// */
 footer{
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     display: inline-block;

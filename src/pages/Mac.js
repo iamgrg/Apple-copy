@@ -1,6 +1,5 @@
-
 const Mac = () => {
-    return <div className="Mac">Mac : </div>
-}
+  return <div className="Mac">Mac : </div>;
+};
 
-export default Mac
+export default Mac;

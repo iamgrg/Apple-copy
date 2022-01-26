@@ -1,5 +1,5 @@
 const Ipad = () => {
-    return <div className="Ipad">Ipad</div>
-}
+  return <div className="Ipad">Ipad</div>;
+};
 
-export default Ipad
+export default Ipad;
