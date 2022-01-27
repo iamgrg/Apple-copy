@@ -3,661 +3,1390 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
-    box-sizing: border-box;
+  line-height: 1;
+  box-sizing: border-box;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-a:visited { 
-    text-decoration: none; 
-   }
-a { 
-    text-decoration: none;
-   }
-
+a:visited {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
 
 /* //////////////////////Miler/////////////////////////// */
 
-header{
-    position: fixed;
-    top : 0;
-    z-index: 10;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0% 20%;
-    height: 42px;
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    display : flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0% 20%;
+  height: 42px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.Panier{
-    box-sizing: border-box;
-    padding: 20px 20px 10px 20px;
-    z-index: 9;
-    height : 385px;
-    width : 286px;
-    position: absolute;
-    top: 48px;
-    right: 12%;
-    border : 1px solid #d2d2d7;
-    background-color: white;
-    border-radius : 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
+.Panier {
+  box-sizing: border-box;
+  padding: 20px 20px 10px 20px;
+  z-index: 9;
+  height: 385px;
+  width: 286px;
+  position: absolute;
+  top: 48px;
+  right: 12%;
+  border: 1px solid #d2d2d7;
+  background-color: white;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
 }
 
-.Panier :first-child{
-    flex-grow: 2.5 !important;
-    border : none;
-    display: flex;
-    flex-direction: column;
-    color: black;
+.Panier :first-child {
+  flex-grow: 2.5 !important;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
 }
 
-.Panier .info{
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-between;
+.Panier .info {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
 }
 
-.Panier .text{
-    border : none;
-    padding-left: 20px;
-    color : black;
+.Panier .text {
+  border: none;
+  padding-left: 20px;
+  color: black;
 }
-.Panier div:hover{
-    cursor: auto;
-    text-decoration: none !important;
-}
-
-.info .img{
-    height: 20%;
-    width: 20%;
-    border : solid #0071e3;
-}
-.CheckOut{
-    background-color: #0071e3;
-    border-radius: 10px;
-    height: 38px;
-    width: 100%;
+.Panier div:hover {
+  cursor: auto;
+  text-decoration: none !important;
 }
 
-.CheckOut .Link{
-    color : white;
-    font-size: 18px;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-weight: 300;
+.info .img {
+  height: 20%;
+  width: 20%;
+  border: solid #0071e3;
 }
-.CheckOut:hover{
-    background-color: #2581dd;
-}
-.Bag{
-    border: none !important;
-    margin-top: 20px;
+.CheckOut {
+  background-color: #0071e3;
+  border-radius: 10px;
+  height: 38px;
+  width: 100%;
 }
 
-.Panier img{
-    width: 21px;
-    height: 21px;
+.CheckOut .Link {
+  color: white;
+  font-size: 18px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 300;
 }
-.Panier div{
-    flex-grow: 1;
-    border-top : 1px solid #d2d2d7;
-    color : rgb(0, 130, 204);
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
+.CheckOut:hover {
+  background-color: #2581dd;
 }
-
-.Panier div text:hover{
-    cursor: pointer;
-    text-decoration: underline;
+.Bag {
+  border: none !important;
+  margin-top: 20px;
 }
 
-.arrow{
-    height: 5px;
-    width: 5px;
-    background-color: white;
-    border-left : 1px solid #d2d2d7 !important;
-    border-top : 1px solid #d2d2d7 !important;
-    transform: translate(-12px, 13px) skew(4deg,4deg) rotate(45deg);
+.Panier img {
+  width: 21px;
+  height: 21px;
 }
-header button{
-    z-index: 11;
-    border : none;
-    background-color: transparent;
-}
-header button:hover{
-    cursor: pointer;
-}
-header button:focus{
-    outline: none;
+.Panier div {
+  flex-grow: 1;
+  border-top: 1px solid #d2d2d7;
+  color: rgb(0, 130, 204);
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
-.Apple .top div{
-    height : 580px;
-    margin : 20px 0 20px 0;
+.Panier div text:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.one{
-    background-color: #fbedf9;
+.arrow {
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-left: 1px solid #d2d2d7 !important;
+  border-top: 1px solid #d2d2d7 !important;
+  transform: translate(-12px, 13px) skew(4deg, 4deg) rotate(45deg);
 }
-.two, .three{
-    background-color: #fbfbfd;
+header button {
+  z-index: 11;
+  border: none;
+  background-color: transparent;
+}
+header button:hover {
+  cursor: pointer;
+}
+header button:focus {
+  outline: none;
+}
+
+.Apple .top div {
+  height: 580px;
+  margin: 20px 0 20px 0;
+}
+
+.one {
+  background-color: #fbedf9;
+}
+.two,
+.three {
+  background-color: #fbfbfd;
 }
 
 header a {
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-weight: 400;
-    color : #d6d6d6cb;
-    font-size: 12px;
-    transition : linear 200ms;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  color: #d6d6d6cb;
+  font-size: 12px;
+  transition: linear 200ms;
 }
 
 header a:hover {
-    color : rgb(230, 230, 230);
-    transition : color linear 200ms;
+  color: rgb(230, 230, 230);
+  transition: color linear 200ms;
 }
 
 /* ///////////////////header.css/////////////////// */
 
-.Apple{
-    margin-top: 42px;
+.Apple {
+  margin-top: 42px;
 }
 
 .Panel {
-    margin: 1vh 0;
-    height: 85vh;
+  margin: 1vh 0;
+  height: 85vh;
 }
 
-.Panel img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.Panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.TwoPanelsOneline{
-    display: flex;
-}
-
-.TwoPanelsOneline :first-child{
-    margin-right : 1vh;
-}
-.TwoPanelsOneline :nth-child(2){
-    margin-left : 1vh;
+.TwoPanelsOneline {
+  display: flex;
 }
 
-.InfoBox{
-    line-height: 1.07143;
-    letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    position: absolute;
-    margin-top: 10vh;
-    right : 32%;
-    left: 32%; 
-    text-align: center;
-    padding : 20px;
-    border-radius : 16px; 
-    color : black;
+.TwoPanelsOneline :first-child {
+  margin-right: 1vh;
 }
-.InfoBox .Title{
-    padding : 2vh;
-    font-size: 7vh;
-    font-weight: 500;
+.TwoPanelsOneline :nth-child(2) {
+  margin-left: 1vh;
 }
 
-.InfoBox .Description{
-    padding : 1vh;
-    font-size: 4vh;
-    font-weight: 300;
+.InfoBox {
+  line-height: 1.07143;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  position: absolute;
+  margin-top: 10vh;
+  right: 32%;
+  left: 32%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 16px;
+  color: black;
+}
+.InfoBox .Title {
+  padding: 2vh;
+  font-size: 7vh;
+  font-weight: 500;
 }
 
-.LinksBox{
-    padding : 1vh;
-    width: 40%;
-    display : flex;
-    justify-content: space-between;
-    margin: 0 auto;
+.InfoBox .Description {
+  padding: 1vh;
+  font-size: 4vh;
+  font-weight: 300;
 }
 
-.LinksBox .link{
-    font-size: 2.5vh;
-    font-weight: 300;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    color : #06c;
+.LinksBox {
+  padding: 1vh;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.LinksBox a:hover{
- cursor: pointer;
- text-decoration: underline;
-
+.LinksBox .link {
+  font-size: 2.5vh;
+  font-weight: 300;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #06c;
 }
 
-.TwoPanelsOneline .InfoBox .Title{
-    padding: 0;
-    font-size: 5vh;
-    font-weight: 450;
-}
-.TwoPanelsOneline .InfoBox .Description{
-    font-size: 2.5vh;
-    font-weight: 360;
-}
-.TwoPanelsOneline .LinksBox{
-    width: 60%;
+.LinksBox a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.TwoPanelsOneline .LinksBox .link{
-    font-size: 2vh;
+.TwoPanelsOneline .InfoBox .Title {
+  padding: 0;
+  font-size: 5vh;
+  font-weight: 450;
+}
+.TwoPanelsOneline .InfoBox .Description {
+  font-size: 2.5vh;
+  font-weight: 360;
+}
+.TwoPanelsOneline .LinksBox {
+  width: 60%;
 }
 
-.TwoPanelsOneline :first-child .InfoBox{
-    left: 13%;
-    right: 63%;
+.TwoPanelsOneline .LinksBox .link {
+  font-size: 2vh;
 }
 
-.TwoPanelsOneline :nth-child(2) .InfoBox{
-    right: 13%;
-    left: 63%;
+.TwoPanelsOneline :first-child .InfoBox {
+  left: 13%;
+  right: 63%;
+}
+
+.TwoPanelsOneline :nth-child(2) .InfoBox {
+  right: 13%;
+  left: 63%;
 }
 /* Ajustements spécifique au texte de chaque box */
 
-#iPhone .InfoBox{
-    transform : translate(0px, -5vh);
+#iPhone .InfoBox {
+  transform: translate(0px, -5vh);
 }
 
-#iPhone .Title{
-    color : white;
+#iPhone .Title {
+  color: white;
 }
-#iPhone .Description{
-    color : #fec2eb;
-}
-
-
-#watch .InfoBox{
-    transform : translate(0px, -12vh);
+#iPhone .Description {
+  color: #fec2eb;
 }
 
-#fitness .InfoBox{
-    padding : 0px;
-    transform : translate(0px, -6vh);
+#watch .InfoBox {
+  transform: translate(0px, -12vh);
 }
 
-#macPro .InfoBox{
-    transform : translate(0px, -8vh);
+#fitness .InfoBox {
+  padding: 0px;
+  transform: translate(0px, -6vh);
 }
 
-#airPods .InfoBox{
-    transform : translate(0px, 55vh);
-}
-#homePods .InfoBox{
-    transform : translate(0px, -8vh);
-}
-#deafo .InfoBox{
-    transform : translate(0px, 55vh);
-}
-#deafo .LinksBox{
-    justify-content: center;
-}
-#deafo .link{
-    color : black;
+#macPro .InfoBox {
+  transform: translate(0px, -8vh);
 }
 
-
+#airPods .InfoBox {
+  transform: translate(0px, 55vh);
+}
+#homePods .InfoBox {
+  transform: translate(0px, -8vh);
+}
+#deafo .InfoBox {
+  transform: translate(0px, 55vh);
+}
+#deafo .LinksBox {
+  justify-content: center;
+}
+#deafo .link {
+  color: black;
+}
 
 /* ///////////////////Apple.css/////////////////// */
 
- .Store{
-        margin-top: 42px;
-        font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-        font-weight: 500;
-        background-color: #f5f5f7;
-    }
-.Store h1{
-    padding: 8vh 0 0 20% ;
-    font-size: 6vh;
-    color : grey;
+.Store {
+  margin-top: 42px;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  background-color: #f5f5f7;
 }
-.Store strong{
-    color : black;
+.Store h1 {
+  padding: 8vh 0 0 20%;
+  font-size: 6vh;
+  color: grey;
 }
-.Caroussel{
-    margin-top : 10vh;
+.Store strong {
+  color: black;
 }
- .CarousselMain{
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 1.5vh;
-        padding: 0 20px;
-        align-items: center;
-        /* border : solid black; */
-        overflow: hidden;
-        width: 100vw;
-    }
- .CarousselTitle{
-    box-sizing: content-box;
-    padding-left: 20%;
-    font-size: 25px;
-    color : grey;
-    }
+.Caroussel {
+  margin-top: 10vh;
+}
+.CarousselMain {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5vh;
+  padding: 0 20px;
+  align-items: center;
+  /* border : solid black; */
+  overflow: hidden;
+  width: 100vw;
+}
+.CarousselTitle {
+  box-sizing: content-box;
+  padding-left: 20%;
+  font-size: 25px;
+  color: grey;
+}
 .Help .title {
-    font-size: 25px;
-    color : grey;
-    margin-bottom: 4vh;
+  font-size: 25px;
+  color: grey;
+  margin-bottom: 4vh;
 }
-  
-  .CarousselMain:hover > button {
-     transform: scale(2);
-     visibility: visible;
-     transition: visibility transform linear 500ms;
-  }
-  .focus{
-    /* border-left : solid red; */
-    padding: 20px 0px;
-    width: 60vw;
-    display: flex;
-    justify-content: flex-start;
-    /* overflow: hidden; */
-  }
-  .divCards{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* border : solid black; */
-    transition: transform 400ms ease-in-out;
-  }
-  
-  .WideCard, .SmallCard{
-    box-sizing: border-box;
-    height: 500px;
-    margin-right: 20px;
-    border-radius: 16px;
-    box-shadow: 0 0 7px 2px rgba(168, 168, 168, 0.4);
-    transition: transform 400ms ease-in-out;
-  }
-  
-  .WideCard:hover, .SmallCard:hover{
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: transform 400ms ease-in-out;
-    box-shadow: 0 0 8px 4px rgba(168, 168, 168, 0.4);
-  }
-  .WideCard{
-    width: 200px;
-  }
-  .SmallCard{
-    width: 400px;
-    font-size: 30px;
-  }
-  
-  .Caroussel button{
-    z-index : 10;
-    border : none;
-    height: 25px;
-    width: 25x;
-    border-radius: 32px;
-    background-color: rgba(0, 0, 0, 0.160);
-    visibility: hidden;
-    transition: visibility transform linear 500ms;
-  }
-  .Caroussel button:hover{
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.260);
-    transition: background-color 300ms ease-in-out;
-  }
-  
-  .arrow {
-    border: solid rgb(255, 255, 255);
-    border-width: 0 2px 2px 0;
-    height: 3px;
-    width: 3px;
-    display: inline-block;
-    padding: 3px;
-  }
-  
-  #right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  #left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-  .Help{
-      margin : 10vh 0 0 20%;
-  }
 
-  .twoCards :nth-child(2){
-      margin-top: 20px;
-  }
-  .Imgs{
-      display: flex;
-  }
+.CarousselMain:hover > button {
+  transform: scale(2);
+  visibility: visible;
+  transition: visibility transform linear 500ms;
+}
+.focus {
+  /* border-left : solid red; */
+  padding: 20px 0px;
+  width: 60vw;
+  display: flex;
+  justify-content: flex-start;
+  /* overflow: hidden; */
+}
+.divCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border : solid black; */
+  transition: transform 400ms ease-in-out;
+}
 
+.WideCard,
+.SmallCard {
+  box-sizing: border-box;
+  height: 500px;
+  margin-right: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 7px 2px rgba(168, 168, 168, 0.4);
+  transition: transform 400ms ease-in-out;
+}
+
+.WideCard:hover,
+.SmallCard:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 400ms ease-in-out;
+  box-shadow: 0 0 8px 4px rgba(168, 168, 168, 0.4);
+}
+.WideCard {
+  width: 200px;
+}
+.SmallCard {
+  width: 400px;
+  font-size: 30px;
+}
+
+.Caroussel button {
+  z-index: 10;
+  border: none;
+  height: 25px;
+  width: 25x;
+  border-radius: 32px;
+  background-color: rgba(0, 0, 0, 0.16);
+  visibility: hidden;
+  transition: visibility transform linear 500ms;
+}
+.Caroussel button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.26);
+  transition: background-color 300ms ease-in-out;
+}
+
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 2px 2px 0;
+  height: 3px;
+  width: 3px;
+  display: inline-block;
+  padding: 3px;
+}
+
+#right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.Help {
+  margin: 10vh 0 0 20%;
+}
+
+.twoCards :nth-child(2) {
+  margin-top: 20px;
+}
+.Imgs {
+  display: flex;
+}
 
 /* ///////////////////Caroussel.css/////////////////// */
 
-
-.CheckOutPage{
-    margin-top : 42px;
-    border : solid gold;
-    padding : 0 20%;
-    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+.Mac {
+  margin-top: 42px;
+  border: solid gold;
 }
-.Intro{
-    margin-top: 15vh;
-    font-weight: 500;
-    margin-bottom: 5vh;
+.Mac h2 {
+  border: solid red 0.1px;
+  padding : 60px 0;
+  font-size: 60px;
+  line-height: 1.0625;
+  font-weight: 500;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-align: center;
 }
-
-.Intro h1{
-    font-size : 5vh;
+.Mac .superCharged {
+  border: solid black;
+  height: 100vh;
 }
-.Intro h2{
-    margin-top: 3vh;
-    font-size : 2vh;
-    font-weight: 400;
-    color : rgb(66, 66, 66)
+.Mac .gridMac {
+  border: solid brown;
+  padding: 0 20%;
+  display: grid;
 }
-
-.CheckOutPage .ItemCard{
-    border : solid red;
-    padding-bottom : 10vh;
+.Mac .topGridMac {
+  border: solid blue;
+  height: 20px;
+}
+.Mac .gridMac .cellGridMac {
+  border: solid red;
+  height: 80px;
+  margin : 20px;
+  width: 60px;
+}
+.Mac .cardDiscount {
+  border: solid black 0.1px;
+  height: 50vh;
+  margin: 4vh;
+}
+.Mac .accessAndCred {
+  border: solid black;
+  display: flex;
+  height: 70vh;
+}
+.Mac .accessAndCred .macAccessories {
+  border: solid black 0.1px;
+  height: 65vh;
+  width: 100%;
+  margin: auto 2vw;
+}
+.Mac .accessAndCred .creditMac {
+border: solid black 0.1px;
+height: 65vh;
+width: 100%;
+margin: auto 2vw auto 0;
+}
+.Mac .freeCashHelp{
+border: solid black;
+height: 35vh;
+margin: 0 2vw;
+display: flex;
+justify-content: space-between;
+}
+.Mac .freeCashHelp .freeDelivery {
+border: solid black 0.1px;
+height: 100%;
+width: 100%;
+}
+.Mac .freeCashHelp .cashBack {
+border: solid black 0.1px;
+height: 100%;
+margin: 0 2vh;
+width: 100%;
+}
+.Mac .freeCashHelp .helpBuy {
+border: solid black 0.1px;
+height: 100%;
+width: 100%;
+}
+.Mac .powerAndEcosystem {
+    border: solid black;
     display: flex;
-    height: 400px;
+    height: 70vh;
 }
-.CheckOutPage .ItemCard .Picture{
-    border : solid blue;
-    flex-grow : 1;
-
+.Mac .powerAndEcosystem .power {
+    border: solid black 0.1px;
+    height: 65vh;
+    width: 100%;
+    margin: auto 2vw;
 }
-.CheckOutPage .ItemCard .Infos{
-    border : solid green;
-    flex-grow: 2;
-    display: flex;
-    flex-direction: column;
+.Mac .powerAndEcosystem .Ecosystem {
+    border: solid black 0.1px;
+    height: 65vh;
+    width: 100%;
+    margin: auto 2vw auto 0;
 }
-.CheckOutPage .ItemCard .Infos .TitleAndPrice{
-    border : solid green;
+.Mac .macOS {
+  border: solid black 0.1px;
+  height: 65vh;
+  width: auto;
+  margin : 4vh;
+}
+.Mac .apps {
+  border: solid black 0.1px;
+  padding: 0 20%;
+  margin: 0 4vh;
+}
+.Mac .apps h2{
+    padding: 20px 0;
+    font-size: 50px;
+}
+.Mac .appsCaroussel {
+  border: solid black 0.1px;
+  height: 110vh;
+  margin: 4vh;
+  padding: 0 20%;
+}
+.Mac .proAppsCaroussel {
+    border: solid black 0.1px;
+    height: 110vh;
+    margin: 4vh;
+    padding: 0 20%;
+}
+/* .Mac .moreOfMac {
+} */
+.Mac .virtualDiv {
+  border: solid black;
+  height: 50vh;
+  margin: 4vh;
+  display: flex;
+  justify-content: stretch;
+  padding: 1vw;
+}
+.Mac .virtualDiv .virtualSessionImg {
+    border: solid black 0.1px;
     height: 100%;
+    width: 100%;
 }
-.CheckOutPage .ItemCard .Infos .TitleAndPrice .top{
-    display: flex;
-    justify-content: space-between;
-}
-.CheckOutPage .ItemCard .Infos .TitleAndPrice .remove{
-    float : right;
-}
-.CheckOutPage .ItemCard .Infos .AppleCare{
-    display: flex;
-    justify-content: space-between;
-    border : solid green;
+.Mac .virtualDiv .virtualSession {
+    border: solid black 0.1px;
     height: 100%;
+    width: 100%;
 }
-.CheckOutPage .ItemCard .Infos .GiftMessage{
+.Mac .one {
+    border: solid black;
+    height: 50vh;
+    margin: 4vh;
     display: flex;
-    justify-content: space-between;
-    border : solid green;
+    justify-content: stretch;
+    padding: 1vw;
+}
+.Mac .one .iOne {
+    border: solid black 0.1px;
     height: 100%;
+    width: 100%;
 }
-.CheckOutPage .Final{
-    display : flex;
+.Mac .one .iOneImg {
+    border: solid black 0.1px;
+    height: 100%;
+    width: 100%;
 }
-.CheckOutPage .Final :first-child{
-    flex-grow: 1;
-    border : solid brown;
+.Mac .bundleServices {
+    border: solid brown;
+    padding: 0 20%;
+    display: grid;
 }
-.CheckOutPage .Final :nth-child(2){
-    flex-grow: 2;
-    border : solid yellow;
+.Mac .bundleServices .TV {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.Mac .bundleServices .pay {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.Mac .bundleServices .arcade {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.Mac .bundleServices .news {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.Mac .giftCard {
+    border: solid black 0.1px;
+    height: 50vh;
+    width: auto;
+    margin : 4vh;
+}
+.Mac .work {
+    border: solid black 0.1px;
+    height: 65vh;
+    width: auto;
+    margin : 4vh;
+}
+.Mac .education {
+    border: solid black 0.1px;
+    height: 65vh;
+    width: auto;
+    margin : 4vh;
+}
+
+/* ///////////////////Mac.css/////////////////// */
+.iphone {
+  margin-top: 42px;
+  border: solid gold;
+}
+.iphone h2 {
+  border: solid red 0.1px;
+}
+.iphone .iphonePro {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .iphoneThirteen {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .guide {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .gridIphone {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .gridIphone .cellGridIphone {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .waysToBuy {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .Tradin {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .discountAndCredit {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .discount .credit {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .why {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .ftAcess {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .magSafeDiv {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .magSafeDiv .magSafeImg {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .magSafeDiv .magSafe {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .airTagDiv {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .airTagDiv .airTagImg {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .airTagDiv .airTag {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .airPods {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .freePayHelp {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .freePayHelp .free {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .freePayHelp .pay {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .freePayHelp .help {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .whatMakesIphone {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .iosFiveteen {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .switchAndPrivacy {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .moreOfIphone {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .VirtualSessionDiv {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .VirtualSessionDiv .VirtualSession {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .VirtualSessionDiv .VirtualSessionImg {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .One .iOneImg {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .One .iOne {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .bundleServices {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .bundleServices .TV {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .bundleServices .music {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .bundleServices .news {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .bundleServices .arcade {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .bundleServices .fitness {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .bundleServices .giftCard {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+
+.iphone .research {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+
+/* ///////////////////Iphone.css/////////////////// */
+.iphone .switchAndPrivacy .switch {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iphone .switchAndPrivacy .privacy {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+/* ///////////////////Iphone.css/////////////////// */
+.iphone .switchAndPrivacy {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+/* ///////////////////Iphone.css/////////////////// */
+
+.iPad {
+  margin-top: 42px;
+  border: solid gold;
+}
+.iPad .ipadSimple {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .iPadMini {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .ipadAir {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .ipadPro {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .gridIpad {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .gridIpad .celliPadGrid {
+  border: solid red 0.1px;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+}
+.iPad .tradeAndDiscount {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .tradeAndDiscount .cardDiscount {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .tradeAndDiscount .trade {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .freePayCustom {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .freePayCustom .free {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .freePayCustom .pay {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .freePayCustom .custom {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+
+.iPad .ipadEssential {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .acessIpad {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .acessIpad .pencil {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .acessIpad .keyboard {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .acessIpad .audio {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .acessIpad .shell {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .whatIsIpad {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .whyDiv {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .whyDiv .whyImg {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .whyDiv .why {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .ipadOs {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .ipadOs .cloudAndPay {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .ipadOs .cloudAndPay {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .moreOfIpad {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .virtualSessionDiv {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .virtualSessionDiv .virtualSession {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .virtualSessionDiv .virtualSessionImg {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .one {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .one .iOneImg {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .one .iOne {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices .TV {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+
+.iPad .bundleServices .music {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices .fitness {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices .arcade {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices .news {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices .giftCard {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices .eductation {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+.iPad .bundleServices .work {
+  border: solid black 0.1px;
+  height: 20px;
+  padding: 20px;
+}
+/* ///////////////////Ipad.css/////////////////// */
+.CheckOutPage {
+  margin-top: 42px;
+  border: solid gold;
+  padding: 0 20%;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
+    Helvetica, Arial, sans-serif;
+}
+.Intro {
+  margin-top: 15vh;
+  font-weight: 500;
+  margin-bottom: 5vh;
+}
+
+.Intro h1 {
+  font-size: 5vh;
+}
+.Intro h2 {
+  margin-top: 3vh;
+  font-size: 2vh;
+  font-weight: 400;
+  color: rgb(66, 66, 66);
+}
+
+.CheckOutPage .ItemCard {
+  border: solid red;
+  padding-bottom: 10vh;
+  display: flex;
+  height: 400px;
+}
+.CheckOutPage .ItemCard .Picture {
+  border: solid blue;
+  flex-grow: 1;
+}
+.CheckOutPage .ItemCard .Infos {
+  border: solid green;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice {
+  border: solid green;
+  height: 100%;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice .top {
+  display: flex;
+  justify-content: space-between;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice .remove {
+  float: right;
+}
+.CheckOutPage .ItemCard .Infos .AppleCare {
+  display: flex;
+  justify-content: space-between;
+  border: solid green;
+  height: 100%;
+}
+.CheckOutPage .ItemCard .Infos .GiftMessage {
+  display: flex;
+  justify-content: space-between;
+  border: solid green;
+  height: 100%;
+}
+.CheckOutPage .Final {
+  display: flex;
+}
+.CheckOutPage .Final :first-child {
+  flex-grow: 1;
+  border: solid brown;
+}
+.CheckOutPage .Final :nth-child(2) {
+  flex-grow: 2;
+  border: solid yellow;
 }
 
 /* J'ai l'impression que le felx grow s'apllique aussi total et au prix faut changer les appelations */
-.CheckOutPage .Final .Bottom{
-    display : flex;
-    justify-content: space-between;
-    border : solid purple;
+.CheckOutPage .Final .Bottom {
+  display: flex;
+  justify-content: space-between;
+  border: solid purple;
 }
-.CheckOutPage .Final .Bottom div{
-    width: auto;
-    border: solid black;
+.CheckOutPage .Final .Bottom div {
+  width: auto;
+  border: solid black;
 }
-
 
 /* ///////////////////CheckOut.css/////////////////// */
-footer{
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
-    display: inline-block;
-    width: 100%;
-    padding-top: 5vh;
-    background-color: #f5f5f7;
+footer {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  display: inline-block;
+  width: 100%;
+  padding-top: 5vh;
+  background-color: #f5f5f7;
 }
 
-.footerSubDivContainer{
-    width:  60%;
-    margin : 0 auto;
-    padding: 2vh 0 3vh 0;
-    border-top: solid rgba(90, 90, 90, 0.20) 0.1px;
-    display: flex;
-    justify-content: space-between;
+.footerSubDivContainer {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2vh 0 3vh 0;
+  border-top: solid rgba(90, 90, 90, 0.2) 0.1px;
+  display: flex;
+  justify-content: space-between;
 }
-.footerSubDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.footerSubDiv button, .Copyright button{
-    color : rgb(90, 90, 90);
-    font-size: 1.5vh;
-    border : none;
-    background: none;
-    padding: 0.75vh 0px;
-    margin : 0px;
-}
-.strong{
-    color : rgba(0, 0, 0, 0.8) !important;
-    font-size: 1.6vh;
-    font-weight: 550;
+.footerSubDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.strong:hover{
-    text-decoration: none !important;
-    cursor: auto !important;
+.footerSubDiv button,
+.Copyright button {
+  color: rgb(90, 90, 90);
+  font-size: 1.5vh;
+  border: none;
+  background: none;
+  padding: 0.75vh 0px;
+  margin: 0px;
 }
-.footerSubDiv button:hover, .Copyright button:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.retailDiv .link{
-    background : none;
-    border : none;
-    color : rgb(40, 129, 204);
-    padding: 0;
-    margin: 0;
-    font-size: 1.5vh;
-}
-.retailDiv .link:hover{
-    cursor: pointer;
-    text-decoration: underline;
+.strong {
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-size: 1.6vh;
+  font-weight: 550;
 }
 
-
-.retailDiv, .Copyright{
-    width:  60%;
-    margin : 0 auto;
-    color : rgb(129, 129, 129);
-    font-size: 1.5vh;
+.strong:hover {
+  text-decoration: none !important;
+  cursor: auto !important;
 }
-.Copyright{
-    padding: 1vh 0 4vh 0;
-    display: flex;
-    justify-content: space-between;
-    vertical-align: baseline;
-}
-.Copyright button{
-    padding: 0 !important ;
-}
-.Legals button{
-    border-left: solid rgba(90, 90, 90, 0.20) 0.1px;
-    padding : 0 0.5vw !important;
+.footerSubDiv button:hover,
+.Copyright button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.retailDiv{
-    border-bottom: solid rgba(90, 90, 90, 0.20) 0.1px;
-    padding-bottom: 1vh;
+.retailDiv .link {
+  background: none;
+  border: none;
+  color: rgb(40, 129, 204);
+  padding: 0;
+  margin: 0;
+  font-size: 1.5vh;
+}
+.retailDiv .link:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-#privacyPol{
-    border : none !important;
+.retailDiv,
+.Copyright {
+  width: 60%;
+  margin: 0 auto;
+  color: rgb(129, 129, 129);
+  font-size: 1.5vh;
+}
+.Copyright {
+  padding: 1vh 0 4vh 0;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: baseline;
+}
+.Copyright button {
+  padding: 0 !important ;
+}
+.Legals button {
+  border-left: solid rgba(90, 90, 90, 0.2) 0.1px;
+  padding: 0 0.5vw !important;
 }
 
+.retailDiv {
+  border-bottom: solid rgba(90, 90, 90, 0.2) 0.1px;
+  padding-bottom: 1vh;
+}
+
+#privacyPol {
+  border: none !important;
+}
 
 /* ///////////////////Footer.css/////////////////// */
