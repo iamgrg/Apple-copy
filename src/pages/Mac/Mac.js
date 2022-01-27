@@ -1,3 +1,5 @@
+import AppCaroussel from "./caroussels"
+
 const Mac = () => {
   return <div className="Mac">
       <div className="superCharged">
@@ -58,9 +60,7 @@ const Mac = () => {
       </div>
       <div className="macOS"></div>
       <div className="apps"><h2>Built-in Apps</h2></div>
-      <div className="appsCaroussel">
-
-      </div>
+      <AppCaroussel/>
       <div className="proAppsCaroussel">
 
       </div>

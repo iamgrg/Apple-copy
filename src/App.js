@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Apple from "./pages/Apple";
 import Ipad from "./pages/iPad";
 import Iphone from "./pages/iPhone";
-import Mac from "./pages/Mac";
+import Mac from "./pages/Mac/Mac";
 import CheckOut from "./pages/Checkout/Checkout";
 import Store from "./pages/Store/Store.js";
 import { useState } from "react";
