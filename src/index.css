@@ -1358,15 +1358,16 @@ width: 100%;
 /* ///////////////////Ipad.css/////////////////// */
 .CheckOutPage {
   margin-top: 42px;
-  border: solid gold;
-  padding: 0 20%;
+  padding: 0 20% 100px 20%;
+  border-bottom :solid rgba(99, 99, 99, 0.363) 0.1px;
+  margin-bottom : 100px;
   font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue,
     Helvetica, Arial, sans-serif;
 }
 .Intro {
   margin-top: 15vh;
   font-weight: 500;
-  margin-bottom: 5vh;
+  margin-bottom: 140px;
 }
 
 .Intro h1 {
@@ -1380,65 +1381,109 @@ width: 100%;
 }
 
 .CheckOutPage .ItemCard {
-  border: solid red;
-  padding-bottom: 10vh;
+  margin-bottom: 10vh;
+  padding-bottom : 100px;
   display: flex;
   height: 400px;
+  border-bottom : solid rgba(99, 99, 99, 0.363) 0.1px;
 }
 .CheckOutPage .ItemCard .Picture {
-  border: solid blue;
   flex-grow: 1;
 }
 .CheckOutPage .ItemCard .Infos {
-  border: solid green;
   flex-grow: 2;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice, .AppleCare, .GiftMessage{
+  padding-bottom: 30px;
+}
+.CheckOutPage .ItemCard .Infos button{
+  border : none;
+  background-color: transparent;
+  color : #06c;
+  font-size: 17px;
+  letter-spacing: -.022em;
+  font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.CheckOutPage .ItemCard .Infos button:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 .CheckOutPage .ItemCard .Infos .TitleAndPrice {
-  border: solid green;
-  height: 100%;
+  border-bottom : solid rgba(99, 99, 99, 0.363) 0.1px;
+  padding-top : 0px;
+}
+.CheckOutPage .ItemCard .Infos .TitleAndPrice .top .Title {
+  width: 350px;
 }
 .CheckOutPage .ItemCard .Infos .TitleAndPrice .top {
   display: flex;
   justify-content: space-between;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 500;
+  letter-spacing: .009em;
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .CheckOutPage .ItemCard .Infos .TitleAndPrice .remove {
   float: right;
 }
-.CheckOutPage .ItemCard .Infos .AppleCare {
+.CheckOutPage .ItemCard .Infos .AppleCare{
+  border-bottom : solid rgba(99, 99, 99, 0.363) 0.1px;
+}
+.CheckOutPage .ItemCard .Infos .AppleCare .top {
   display: flex;
   justify-content: space-between;
-  border: solid green;
-  height: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.appleCareUl{
+  list-style-type: disc;
+  padding: 10px 0 0 40px;
+}
+.CheckOutPage .ItemCard .Infos .AppleCare li{
+  font-size: 14px;
+  padding : 5px 0;
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+
 }
 .CheckOutPage .ItemCard .Infos .GiftMessage {
   display: flex;
   justify-content: space-between;
-  border: solid green;
-  height: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-bottom : solid rgba(99, 99, 99, 0.363) 0.1px;
 }
 .CheckOutPage .Final {
   display: flex;
 }
-.CheckOutPage .Final :first-child {
+.CheckOutPage .Final .left {
   flex-grow: 1;
-  border: solid brown;
 }
-.CheckOutPage .Final :nth-child(2) {
+.CheckOutPage .Final .rigth {
   flex-grow: 2;
-  border: solid yellow;
-}
 
-/* J'ai l'impression que le felx grow s'apllique aussi total et au prix faut changer les appelations */
+}
+.CheckOutPage .Final .Top {
+  padding: 30px 0;
+}
+/* J'ai l'impression que le flex grow s'apllique aussi total et au prix faut changer les appelations */
 .CheckOutPage .Final .Bottom {
+  border-top: solid rgba(99, 99, 99, 0.363) 0.1px;
   display: flex;
   justify-content: space-between;
-  border: solid purple;
 }
 .CheckOutPage .Final .Bottom div {
-  width: auto;
-  border: solid black;
+  padding : 30px 0;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 500;
+  letter-spacing: .009em;
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 /* ///////////////////CheckOut.css/////////////////// */

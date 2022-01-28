@@ -28,12 +28,12 @@ const CheckOut = (props) => {
       </div>
       {cards}
       <div className="Final">
-        <div></div>
-        <div>
+        <div className="left"></div>
+        <div className="rigth">
           <div className="Top"></div>
           <div className="Bottom">
             <div>Total</div>
-            <div>{price}</div>
+            <div>${price}</div>
           </div>
         </div>
       </div>
