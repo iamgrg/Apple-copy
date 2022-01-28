@@ -687,21 +687,36 @@ width: 100%;
   border-bottom: solid #d2d2d7 0.1px;
   padding: 0;
   display: flex;
+  margin-bottom : 40px;
   justify-content: space-between;
 }
 .Mac .appsCaroussel button {
   border : none;
   background-color: transparent;
   font-size: 17px;
-  padding: 20px 0;
+  padding: 0 0 10px 0;
   transform: translate(0px, 1px);
   color : #7d7d7e;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-.Mac .appsCaroussel .select{
+.Mac .appsCaroussel .CarousselChoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height : 90px;
+  padding-top: 10px;
+  align-items: center;
 }
+.Mac .appsCaroussel .CarousselChoice img{
+  width: 48px;
+  height: 59px;
+}
+
 .Mac .appsCaroussel button:hover {
   color : rgb(39, 39, 39);
+  cursor: pointer;
+}
+.Mac .appsCaroussel .CarousselChoice:hover {
   cursor: pointer;
 }
 .Mac .appsCaroussel .macDisplay {
@@ -711,6 +726,27 @@ width: 100%;
   padding : 0;
   margin: 50px auto 0 auto;
 }
+.Mac .appsCaroussel .textAppCaroussel{
+  width: 700px;
+  margin : auto;
+  text-align: center;
+}
+
+.Mac .appsCaroussel .textAppCaroussel p{
+  font-size: 18px;
+  line-height: 1.47059;
+  font-weight: 350;
+  letter-spacing: -.022em;
+  color : rgba(0, 0, 0, 0.788);
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-bottom: 20px;
+}
+.Mac .appsCaroussel .textAppCaroussel :nth-child(2){
+  color : rgba(0, 102, 204, 0.849);
+}
+.Mac .appsCaroussel .textAppCaroussel :nth-child(2):hover{
+  text-decoration: underline;
+}
 .Mac .appsCaroussel .screen {
   position: absolute;
   top:  15px;
@@ -719,10 +755,82 @@ width: 100%;
   width: 577px;
 }
 .Mac .proAppsCaroussel {
-    border: solid black 0.1px;
-    height: 110vh;
-    margin: 4vh;
-    padding: 0 20%;
+  border: solid black 0.1px;
+  height: 110vh;
+  margin: 4vh;
+  padding: 0 20%;
+  background-color: #fbfbfd;
+}
+.Mac .proAppsCaroussel .menu {
+  border-bottom: solid #d2d2d7 0.1px;
+  padding: 0;
+  display: flex;
+  margin-bottom : 40px;
+  justify-content: space-between;
+}
+.Mac .proAppsCaroussel button {
+  border : none;
+  background-color: transparent;
+  font-size: 17px;
+  padding: 0 0 10px 0;
+  transform: translate(0px, 1px);
+  color : #7d7d7e;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.Mac .proAppsCaroussel .CarousselChoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height : 90px;
+  padding-top: 10px;
+  align-items: center;
+}
+.Mac .proAppsCaroussel .CarousselChoice img{
+  width: 48px;
+  height: 59px;
+}
+
+.Mac .appsCaroussel button:hover {
+  color : rgb(39, 39, 39);
+  cursor: pointer;
+}
+.Mac .proAppsCaroussel .CarousselChoice:hover {
+  cursor: pointer;
+}
+.Mac .proAppsCaroussel .macBookDispley {
+  height: 364px;
+  width: 625px;
+  position: relative;
+  padding : 0;
+  margin: 50px auto 0 auto;
+}
+.Mac .proAppsCaroussel .textAppCaroussel{
+  width: 700px;
+  margin : auto;
+  text-align: center;
+}
+
+.Mac .proAppsCaroussel .textAppCaroussel p{
+  font-size: 18px;
+  line-height: 1.47059;
+  font-weight: 350;
+  letter-spacing: -.022em;
+  color : rgba(0, 0, 0, 0.788);
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-bottom: 20px;
+}
+.Mac .proAppsCaroussel .textAppCaroussel :nth-child(2){
+  color : rgba(0, 102, 204, 0.849);
+}
+.Mac .proAppsCaroussel .textAppCaroussel :nth-child(2):hover{
+  text-decoration: underline;
+}
+.Mac .proAppsCaroussel .screen {
+  position: absolute;
+  top: 15px;
+  left: 72px;
+  height: 300px;
+  width: 479px;
 }
 /* .Mac .moreOfMac {
 } */

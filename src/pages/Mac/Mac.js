@@ -1,4 +1,4 @@
-import AppCaroussel from "./caroussels"
+import {AppCaroussel,ProAppsCaroussel} from "./caroussels"
 
 const Mac = () => {
   return <div className="Mac">
@@ -61,9 +61,7 @@ const Mac = () => {
       <div className="macOS"></div>
       <div className="apps"><h2>Built-in Apps</h2></div>
       <AppCaroussel/>
-      <div className="proAppsCaroussel">
-
-      </div>
+      <ProAppsCaroussel/>
       <h2 className="moreOfMac">Get more out of Mac</h2>
       <div className="virtualDiv">
         <div className="virtualSession"></div>
