@@ -588,16 +588,15 @@ header a:hover {
   border: solid brown;
   padding: 0 20%;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .Mac .topGridMac {
   border: solid blue;
   height: 20px;
 }
 .Mac .gridMac .cellGridMac {
-  border: solid red;
-  height: 80px;
+  border: solid red 1px;
   margin : 20px;
-  width: 60px;
 }
 .Mac .cardDiscount {
   border: solid black 0.1px;

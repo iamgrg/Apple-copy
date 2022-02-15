@@ -91,7 +91,7 @@ const AppCaroussel = () => {
        <button style={style[3]} onClick={() => {select(imgs[3])}}>GarageBand</button>,
        <button style={style[4]} onClick={() => {select(imgs[4])}}>Pages</button>,
        <button style={style[5]} onClick={() => {select(imgs[5])}}>Numbers</button>,
-       <button style={style[6]} onClick={() => {select(imgs[6])}}>Keynotes</button>,
+       <button style={style[6]} onClick={() => {select(imgs[6])}}>Keynote</button>,
     ]
 
     const CarousselChoice = [

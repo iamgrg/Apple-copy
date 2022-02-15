@@ -1,6 +1,7 @@
 import Header from "./Header/header";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {newIpad, newMac, newIphone} from "./ItemGenetator"
 
 import About from "./pages/About";
 import Apple from "./pages/Apple";
@@ -26,7 +27,10 @@ const Item3 = {
 
 function App() {
 
-const [items, setItems] = useState([Item1, Item2, Item3])
+const [items, setItems] = useState([Item1, Item2, newMac("13-inch", "Air", "256GB", "blue")]);
+console.log(newMac("13-inch", "Air", "256GB", "blue"));
+console.log(newIpad("Air", "12.9-inch", "256GB", "blue"));
+console.log(newIphone("Default", "mini", "256GB", "blue"));
 const add = (item) => {
     let newItems = items.push(item);
     setItems(newItems);
