@@ -570,6 +570,7 @@ header a:hover {
 .Mac {
   margin-top: 42px;
   border: solid gold;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .Mac h2 {
   border: solid red 0.1px;
@@ -583,12 +584,25 @@ header a:hover {
 .Mac .superCharged {
   border: solid black;
   height: 100vh;
+  padding : 100px 10%;
+  box-sizing: border-box;
+}
+.Mac .superCharged .texte {
+  border : solid black 1px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 500;
+  letter-spacing: -.005em;
+  color : #1d1d1f;
 }
 .Mac .gridMac {
   border: solid brown;
   padding: 0 20%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f2f2f2;
 }
 .Mac .topGridMac {
   border: solid blue;
@@ -600,13 +614,19 @@ header a:hover {
 }
 .Mac .cardDiscount {
   border: solid black 0.1px;
-  height: 50vh;
   margin: 4vh;
+  display: flex;
+}
+.Mac .cardDiscount .texte {
+  background-color: #f2f2f2;
 }
 .Mac .accessAndCred {
   border: solid black;
   display: flex;
   height: 70vh;
+}
+.Mac .accessAndCred div {
+  background-color: #f2f2f2;
 }
 .Mac .accessAndCred .macAccessories {
   border: solid black 0.1px;
@@ -662,9 +682,7 @@ width: 100%;
 }
 .Mac .macOS {
   border: solid black 0.1px;
-  height: 65vh;
-  width: auto;
-  margin : 4vh;
+  margin : 3.5vh;
 }
 .Mac .apps {
   border: solid black 0.1px;
@@ -677,7 +695,6 @@ width: 100%;
 }
 .Mac .appsCaroussel {
   border: solid black 0.1px;
-  height: 110vh;
   margin: 4vh;
   padding: 0 20%;
   background-color: #fbfbfd;
@@ -755,7 +772,6 @@ width: 100%;
 }
 .Mac .proAppsCaroussel {
   border: solid black 0.1px;
-  height: 110vh;
   margin: 4vh;
   padding: 0 20%;
   background-color: #fbfbfd;
@@ -835,7 +851,6 @@ width: 100%;
 } */
 .Mac .virtualDiv {
   border: solid black;
-  height: 50vh;
   margin: 4vh;
   display: flex;
   justify-content: stretch;
@@ -851,7 +866,7 @@ width: 100%;
     height: 100%;
     width: 100%;
 }
-.Mac .one {
+.Mac .Appleone {
     border: solid black;
     height: 50vh;
     margin: 4vh;
@@ -859,40 +874,38 @@ width: 100%;
     justify-content: stretch;
     padding: 1vw;
 }
-.Mac .one .iOne {
+.Mac .Appleone .iOne {
     border: solid black 0.1px;
     height: 100%;
     width: 100%;
 }
-.Mac .one .iOneImg {
+.Mac .Appleone .iOneImg {
     border: solid black 0.1px;
     height: 100%;
     width: 100%;
 }
 .Mac .bundleServices {
     border: solid brown;
-    padding: 0 20%;
+    padding: 0%;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
 }
 .Mac .bundleServices .TV {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  margin : 10px;
 }
 .Mac .bundleServices .pay {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  margin : 10px;
 }
 .Mac .bundleServices .arcade {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  margin : 10px;
 }
 .Mac .bundleServices .news {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  margin : 10px;
 }
 .Mac .giftCard {
     border: solid black 0.1px;
@@ -902,13 +915,11 @@ width: 100%;
 }
 .Mac .work {
     border: solid black 0.1px;
-    height: 65vh;
     width: auto;
     margin : 4vh;
 }
 .Mac .education {
     border: solid black 0.1px;
-    height: 65vh;
     width: auto;
     margin : 4vh;
 }

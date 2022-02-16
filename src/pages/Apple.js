@@ -36,7 +36,7 @@ const Apple = () => {
     <div className="Apple">
       <Panel
         identity="iPhonePro"
-        Title="iPhone 13 pro"
+        Title="iPhone 13 Pro"
         Description="Oh. So. Pro."
         links={["Learn more", "Buy"]}
         img={One_PA}
