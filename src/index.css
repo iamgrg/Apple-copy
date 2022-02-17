@@ -934,217 +934,141 @@ width: 100%;
 }
 .iphone .iphonePro {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .iphoneThirteen {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .guide {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .gridIphone {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .iphone .gridIphone .cellGridIphone {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .waysToBuy {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+}
+.iphone .TradinAndAppleCard{
+  border: solid black 0.1px;
+  display: flex;
 }
 .iphone .Tradin {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .discountAndCredit {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .discount .credit {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .why {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .ftAcess {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .magSafeDiv {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .magSafeDiv .magSafeImg {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .magSafeDiv .magSafe {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .airTagDiv {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .airTagDiv .airTagImg {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .airTagDiv .airTag {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .airPods {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .freePayHelp {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .freePayHelp .free {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .freePayHelp .pay {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .freePayHelp .help {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .whatMakesIphone {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .iosFiveteen {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .switchAndPrivacy {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .moreOfIphone {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .VirtualSessionDiv {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .VirtualSessionDiv .VirtualSession {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .VirtualSessionDiv .VirtualSessionImg {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .One .iOneImg {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .One .iOne {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .bundleServices {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .iphone .bundleServices .TV {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .bundleServices .music {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .bundleServices .news {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .bundleServices .arcade {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .bundleServices .fitness {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .bundleServices .giftCard {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 
 .iphone .research {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 
 /* ///////////////////Iphone.css/////////////////// */
 .iphone .switchAndPrivacy .switch {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iphone .switchAndPrivacy .privacy {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 /* ///////////////////Iphone.css/////////////////// */
 .iphone .switchAndPrivacy {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 /* ///////////////////Iphone.css/////////////////// */
 
@@ -1154,216 +1078,170 @@ width: 100%;
 }
 .iPad .ipadSimple {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iPad .iPadMini {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iPad .ipadAir {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
 }
 .iPad .ipadPro {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .gridIpad {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .iPad .gridIpad .celliPadGrid {
   border: solid red 0.1px;
-  height: 20px;
-  width: 20px;
-  padding: 20px;
 }
 .iPad .tradeAndDiscount {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .tradeAndDiscount .cardDiscount {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .tradeAndDiscount .trade {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .freePayCustom {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .freePayCustom .free {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .freePayCustom .pay {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .freePayCustom .custom {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 
 .iPad .ipadEssential {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .acessIpad {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .acessIpad .pencil {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .acessIpad .keyboard {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .acessIpad .audio {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .acessIpad .shell {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .whatIsIpad {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .whyDiv {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .whyDiv .whyImg {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .whyDiv .why {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .ipadOs {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .ipadOs .cloudAndPay {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .ipadOs .cloudAndPay {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .moreOfIpad {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .virtualSessionDiv {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .virtualSessionDiv .virtualSession {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .virtualSessionDiv .virtualSessionImg {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .one {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .one .iOneImg {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .one .iOne {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices .TV {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 
 .iPad .bundleServices .music {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices .fitness {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices .arcade {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices .news {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices .giftCard {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices .eductation {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 .iPad .bundleServices .work {
   border: solid black 0.1px;
-  height: 20px;
-  padding: 20px;
+  
 }
 /* ///////////////////Ipad.css/////////////////// */
 .CheckOutPage {

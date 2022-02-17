@@ -28,7 +28,6 @@ import acmi from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/a
 import tile_monterey from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/tile_monterey__bm1x7sttegty_large.jpeg"
 import icon_finance from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon-finance__fk30uafhm76u_large.svg"
 import icon_help from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon-help__cwmazkux9uaa_large.svg"
-
 const Mac = () => {
   return (
     <div className="Mac">
