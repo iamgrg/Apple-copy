@@ -19,7 +19,6 @@ import apple_TV_plus_logo from "/Users/gregoire/Documents/Projet code/Odin_proje
 import bundle_gaaz from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/bundle__gaazdu9x3jqu_large.jpeg"
 import continuity from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/continuity__f7o5n4kqigeq_large.jpeg"
 import education from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/education__bq047y5fu7n6_large.jpeg"
-import icon_appstore from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon_appstore__ks6wdzcwx26a_large.png"
 import icon_delivery from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon-delivery__cthkmrp24qoi_large.png"
 import trade_in_mac from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/trade_in_mac_tile__d67bvlqow1ua_large.jpeg"
 import virtual_sessions from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/virtual_sessions__bf3oif13injm_large.jpeg"
@@ -72,22 +71,40 @@ const Mac = () => {
       </div>
       <div className="cardDiscount">
         <div className="texte">
-          Get 3% Daily Cash back with Apple Card. And pay for your new Mac over
-          12 months, interest‑free when you choose to check out with Apple Card
-          Monthly Installments.* Learn more
+          <strong style={{ fontSize: "48px", fontWeight: "500" }}>
+            Get 3% Daily Cash back with Apple Card.
+          </strong>{" "}
+          <br></br>
+          <br></br>
+          <p style={{ padding: "0 70px", lineHeight: "1.5" }}>
+            And pay for your new Mac over 12 months, interest‑free when you
+            choose to check out with Apple Card Monthly Installments.*
+          </p>
+          <div className="LearnMore">Learn More {'>'}</div>
         </div>
         <img src={acmi} alt="acmi"></img>
       </div>
       <div className="accessAndCred">
         <div className="macAccessories">
-          <div className="texte">Accessories Explore Mac accessories. Shop</div>
+          <div className="texte">
+            <div className="subtitle">Accessories</div>
+            <strong style={{ fontSize: "48px", fontWeight: "500" }}>
+              Explore Mac accessories.
+            </strong>
+            <div className="Shop">Shop</div>
+          </div>
           <img src={macAccess} alt="macAcessories"></img>
         </div>
         <div className="creditMac">
           <div className="texte">
-            Apple Trade In Get credit toward a new Mac. Just trade in your
-            eligible computer for credit or recycle it for free. It’s good for
-            you and the planet.9 Find your trade‑in value
+            <div className="subtitle">Apple Trade In</div>
+            <strong style={{ fontSize: "48px", fontWeight: "500" }}>
+              Get credit toward a new Mac.
+            </strong>{" "}
+            <br></br>
+            <br></br>Just trade in your eligible computer for credit or recycle
+            it for free. It’s good for you and the planet.9
+            <div className="LearnMore">Find your trade‑in value</div>
           </div>
           <img src={trade_in_mac} alt="trade_in_mac"></img>
         </div>
@@ -106,26 +123,52 @@ const Mac = () => {
       <h2 className="WhatisMac">What makes a Mac a Mac?</h2>
       <div className="powerAndEcosystem">
         <div className="power">
+        <div className="texte">
+        <div className="subtitle">Why Mac</div> 
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Incredible power. Incredibly simple. </strong>
+          <div className="LearnMore">Learn More {'>'}</div>
+          </div>
           <img src={why_mac} alt="why_mac"></img>
         </div>
         <div className="Ecosystem">
+        <div className="texte">
+        <div className="subtitle">Continuity</div> 
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>All your devices. One seamless experience. </strong>
+          <div className="LearnMore">Learn More {'>'}</div>
+          </div>
           <img src={continuity} alt="continuity"></img>
         </div>
       </div>
       <div className="macOS">
+      <div className="texte">
+        <div className="subtitle">macOS Monterey</div> 
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>High powered meets “Hi everyone.”</strong>
+          <div className="MacOsLinks">
+            <div className="LearnMore">Update Now</div>
+            <div className="LearnMore">Learn More {'>'}</div>
+          </div>
+          </div>
         <img src={tile_monterey} alt="tile_monterey"></img>
       </div>
       <div className="apps">
         <h2>Built-in Apps</h2>
+        <h3>Powerful creativity and productivity tools live inside every Mac — apps that help you explore, connect, and work more efficiently.</h3>
       </div>
       <AppCaroussel />
-      <ProAppsCaroussel />
-      <div className="AppStore">
-        <img src={icon_appstore} alt="icon_appstore"></img>
+      <div className="apps">
+        <h2>Pro Apps</h2>
+        <h3>For professionals ready to push their creativity, these industry-leading apps offer maximum control over editing, processing, and output of music and film</h3>
       </div>
+        <ProAppsCaroussel />
       <h2 className="moreOfMac">Get more out of Mac</h2>
       <div className="virtualDiv">
-        <div className="virtualSession"></div>
+        <div className="virtualSession">
+        <div className="texte">
+        <div className="subtitle">Why Mac</div> 
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Incredible power. Incredibly simple. </strong>
+          <div className="LearnMore">Learn More {'>'}</div>
+          </div>
+        </div>
         <div className="virtualSessionImg">
           <img src={virtual_sessions} alt="virtual_sessions"></img>
         </div>
@@ -135,6 +178,11 @@ const Mac = () => {
           <img src={bundle_gaaz} alt="bundle_gaaz"></img>
         </div>
         <div className="iOneImg">
+        <div className="texte">
+        <div className="subtitle">Why Mac</div> 
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Incredible power. Incredibly simple. </strong>
+          <div className="LearnMore">Learn More {'>'}</div>
+          </div>
           <img src={apple_one_logo} alt="apple_one_logo"></img>
         </div>
       </div>
@@ -157,9 +205,24 @@ const Mac = () => {
         <img src={apple_gift_card_tile} alt="apple_gift_card_tile"></img>
       </div>
       <div className="work">
+      <div className="texte">
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Apple at Work</strong>
+        <div className="subtitle">Get the power to take your business to the next level.</div> 
+          <div className="">
+            <div className="LearnMore">Learn about Apple at Work {'>'}</div>
+            <div className="LearnMore">See why Mac means business {'>'}</div>
+          </div>
+          </div>
         <img src={appleAtWork} alt="appleAtWork"></img>
       </div>
       <div className="education">
+      <div className="texte">
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Apple and Education</strong>
+        <div className="subtitle">Empowering educators and students to move the world forward</div> 
+          <div className="">
+            <div className="LearnMore">Learn about Apple and Education {'>'}</div>
+          </div>
+          </div>
         <img src={education} alt="education"></img>
       </div>
     </div>

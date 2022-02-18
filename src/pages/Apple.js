@@ -38,21 +38,21 @@ const Apple = () => {
         identity="iPhonePro"
         Title="iPhone 13 Pro"
         Description="Oh. So. Pro."
-        links={["Learn more", "Buy"]}
+        links={["Learn More {'>'}", "Buy"]}
         img={One_PA}
       ></Panel>
       <Panel
         identity="iPhone"
         Title="iPhone 13"
         Description="Your New Superpower."
-        links={["Learn more", "Buy"]}
+        links={["Learn More {'>'}", "Buy"]}
         img={hero_iphone_13__f194u1rdooeq_large}
       ></Panel>
       <Panel
         identity="watch"
         Title="New WATCH SERIES 7"
         Description="Introducing our largest display yet."
-        links={["Learn more", "Buy"]}
+        links={["Learn More {'>'}", "Buy"]}
         img={hero_watch__f05go333pz2i_large}
       ></Panel>
       <div className="TwoPanelsOneline">
@@ -60,14 +60,14 @@ const Apple = () => {
           identity="fitness"
           Title="Fitness +"
           Description="More ways to move. Now with Time to Run and Collections."
-          links={["Learn more", "Try it free"]}
+          links={["Learn More {'>'}", "Try it free"]}
           img={tile_applefitness__fdk8xvz0dvu6_large}
         ></Panel>
         <Panel
           identity="macPro"
           Title="MacBook Pro"
           Description="Supercharged for Pros"
-          links={["Learn more", "Buy"]}
+          links={["Learn More {'>'}", "Buy"]}
           img={tile_macbookpro__cx0ur0qg9biq_large}
         ></Panel>
       </div>
@@ -76,14 +76,14 @@ const Apple = () => {
           identity="airPods"
           Title="AirPods"
           Description="All new with spatial audio"
-          links={["Learn more", "Buy"]}
+          links={["Learn More {'>'}", "Buy"]}
           img={tile_airpods__fuv6vgn42y2q_large}
         ></Panel>
         <Panel
           identity="homePods"
           Title="HomePods Mini"
           Description="You’ve never heard color like this."
-          links={["Learn more", "Buy"]}
+          links={["Learn More {'>'}", "Buy"]}
           img={tile_homepod_mini__b73w4z3ljymu_large}
         ></Panel>
       </div>
@@ -92,7 +92,7 @@ const Apple = () => {
           identity="card"
           Title="Card"
           Description="Save 5% on Apple products with a new Apple Card through January 31."
-          links={["Learn more", "Apply now"]}
+          links={["Learn More {'>'}", "Apply now"]}
           img={tile_apple_card__cwonh0wb00om_large}
         ></Panel>
         <Panel

@@ -30,6 +30,7 @@ import MainStage from "/Users/gregoire/Documents/Projet code/Odin_project/portfo
 import Motion from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_motion__e8fjbzoh3vyq_large.jpeg"
 import Compressor from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_compressor__f9jt79x2r6a2_large.jpeg"
 import FinalCut from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_finalcut__bcplnlmrhyjm_large.jpeg"
+import icon_appstore from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon_appstore__ks6wdzcwx26a_large.png"
 
 const AppCaroussel = () => {
     
@@ -294,6 +295,10 @@ const ProAppsCaroussel = () => {
         <img src={macBookDispley} alt="macBookDispley"></img>
         {mainImg}
         </div>
+        <div className="AppStore">
+        <img src={icon_appstore} alt="icon_appstore"></img>
+        <div className="txtAppStore">The Mac App Store features rich editorial content and great apps for Mac. <strong className="LearnMore">Explore the Mac App Store</strong></div>
+      </div>
     </div>
 }
 
