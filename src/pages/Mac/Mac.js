@@ -164,9 +164,11 @@ const Mac = () => {
       <div className="virtualDiv">
         <div className="virtualSession">
         <div className="texte">
-        <div className="subtitle">Why Mac</div> 
-        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Incredible power. Incredibly simple. </strong>
-          <div className="LearnMore">Learn More {'>'}</div>
+        <div className="subtitle">Today at Apple</div> 
+        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Virtual Sessions </strong>
+        <p style={{padding : "20px 10px 20px 10px", fontSize : "20px"} }>Learn the basics of using Mac
+live with Apple Creatives.</p>
+          <div className="LearnMore">Sign up {'>'}</div>
           </div>
         </div>
         <div className="virtualSessionImg">
