@@ -27,11 +27,21 @@ import acmi from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/a
 import tile_monterey from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/tile_monterey__bm1x7sttegty_large.jpeg"
 import icon_finance from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon-finance__fk30uafhm76u_large.svg"
 import icon_help from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon-help__cwmazkux9uaa_large.svg"
+import icon_apple_pay from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/apple_pay_logo__d2j4vxi85iaa_large.png"
+import  icon_apple_news from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/apple_news_plus_logo__cggpupc1mpci_large.png"
+import  icon_apple_arcade from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/logo_apple_arcade__mvq317ljfkqe_large.png"
 const Mac = () => {
   return (
     <div className="Mac">
       <div className="superCharged">
-        <h3 className="texte">Supercharged for pros.</h3>
+        <div className="texte">
+          <div className="new">New</div>
+          <div className="subtitle">MacBook Pro</div>
+          <h3>Supercharged for pros.</h3>
+          <div className="price">From $1999</div>
+          <div className="Buy">Buy</div>
+          <div className="LearnMore">Learn more {'>'}</div>
+        </div>
         <img src={superCharged} alt="macbook"></img>
       </div>
       <div className="topGridMac">
@@ -180,31 +190,75 @@ live with Apple Creatives.</p>
           <img src={bundle_gaaz} alt="bundle_gaaz"></img>
         </div>
         <div className="iOneImg">
+        <img src={apple_one_logo} alt="apple_one_logo"></img>
         <div className="texte">
-        <div className="subtitle">Why Mac</div> 
-        <strong style={{ fontSize: "48px", fontWeight: "500" }}>Incredible power. Incredibly simple. </strong>
-          <div className="LearnMore">Learn More {'>'}</div>
+        <div className="subtitle">Bundle up to six Apple services. And enjoy more for less.</div> 
+        <div className="BundleLinks">
+            <div className="LearnMore">Try it free</div>
+            <div className="LearnMore">Learn More {'>'}</div>
           </div>
-          <img src={apple_one_logo} alt="apple_one_logo"></img>
+          </div>
         </div>
       </div>
       <div className="bundleServices">
-        <div className="TV">
+        <div className="bundleService TV">
+          <div className="texte">
           <img src={apple_TV_plus_logo} alt="apple_TV_plus_logo"></img>
+          <div className="subtitle">Get 3 months of Apple TV+ free
+when you buy a Mac.</div> 
+        <div className="BundleLinks">
+            <div className="LearnMore">Try it free</div>
+            <div className="LearnMore">Learn More {'>'}</div>
+          </div>
+          </div>
+          <div className="video" style={{color : 'white'}}>Flemme de mettre la video pour l'instant</div>
         </div>
-        <div className="pay">
+        <div className="bundleService pay">
+          <div className="texte">
+          <img src={icon_apple_pay} alt="icon_apple_pay"></img>
+          <div className="subtitle">The safer way to make secure,
+contactless purchases in stores and online.</div> 
+            <div className="LearnMore">Learn More {'>'}</div>
+          </div>
           <img src={apple_pay} alt="apple_pay"></img>
         </div>
-        <div className="arcade">
+        <div className="bundleService arcade">
+          <div className="texte">
+          <img src={icon_apple_arcade} alt="icon_apple_arcade"></img>
+          <div className="subtitle">Get 3 months of Apple Arcade free
+when you buy a Mac.</div>
+        <div className="BundleLinks">
+            <div className="LearnMore">Try it free</div>
+            <div className="LearnMore">Learn More {'>'}</div>
+          </div>
+          </div>
           <img src={appleArcade} alt="aracde"></img>
         </div>
-        <div className="news">
+        <div className="bundleService news">
+          <div className="texte">
+          <img src={icon_apple_news} alt="icon_apple_news"></img>
+          <div className="subtitle">Hundreds of magazines and
+leading newspapers. One subscription</div>
+        <div className="BundleLinks">
+            <div className="LearnMore">Try it free</div>
+            <div className="LearnMore">Learn More {'>'}</div>
+          </div>
+          </div>
           <img src={apple_news_plus_half} alt="apple_news_plus_half"></img>
         </div>
       </div>
       <div className="giftCard">
+        <div className="texte">
         <img src={apple_gift_card_logo} alt="apple_gift_card_logo"></img>
-        <img src={apple_gift_card_tile} alt="apple_gift_card_tile"></img>
+          <div className="subtitle">For everything and everyone.</div>
+          <div className="BundleLinks">
+            <div className="LearnMore">Learn More {'>'}</div>
+            <div className="LearnMore">Buy {'>'}</div>
+          </div>
+          </div>
+          <div className="giftcardImage">
+          <img src={apple_gift_card_tile} alt="apple_gift_card_tile"></img>
+          </div>
       </div>
       <div className="work">
       <div className="texte">
