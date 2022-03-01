@@ -580,8 +580,16 @@ header a:hover {
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   text-align: center;
 }
+.Mac h3 {
+  padding : 60px 0;
+  font-size: 45px;
+  line-height: 1.0625;
+  font-weight: 500;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-align: center;
+}
 .Mac .superCharged {
-  padding : 40px 10%;
+  padding : 40px 10% 100px 10%;
   box-sizing: border-box;
 }
 .Mac .superCharged .new{
@@ -589,21 +597,33 @@ header a:hover {
   margin-bottom : 10px;
   font-size: 17px;
 }
+.Mac .topPictureGrid{
+  display: flex;
+  flex-direction: column;
+}
 .Mac .superCharged .price {
   font-size: 17px;
   margin-top : 10px;
 }
-.Mac .superCharged .Buy {
+.Mac .Buy {
   font-size: 20px;
   background-color: #0071e3;  
   display: inline;
   padding: 8px 15px;
   color : white;
   font-weight: 400;
-  border-radius: 18px;
+  border-radius: 20px;
   margin-top : 10px;
 }
-.Mac .superCharged .Buy:hover {
+.Mac .topGridCell .Buy {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+.price{
+  margin : 20px;
+}
+.Mac .Buy:hover {
     cursor: pointer;
     background-color: #197cdf !important;
 }
@@ -620,13 +640,36 @@ header a:hover {
   color : #1d1d1f;
   padding-bottom: 40px;
 }
-.Mac .gridMac {
-  padding: 0 20%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #f2f2f2;
+
+.Mac .Banner{
+  display: flex;
+  justify-content: space-evenly;
+}
+.Mac .Banner .topGridCell{
+  border-bottom : solid #d2d2d7 0.1px;
+  padding: 0 0 20px 0;
+  width: 28%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
+.Mac .topGridCell .LearnMore{
+  font-size: 13px;
+}
+.Mac .Banner .topGridCell img{
+  margin : 10px auto;
+}
+.Mac .gridMac {
+  padding: 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fafafa;
+}
+.Mac .topGridMac{
+  padding: 8vh 10% 1vh 10%;
+  background-color: #fafafa;
+}
 .Mac .LearnMore{
   color : rgb(2, 98, 194);
   margin-top: 20px;
@@ -642,10 +685,7 @@ header a:hover {
   text-decoration: underline;
 }
 
-.Mac .topGridMac {
-  border: solid blue;
-  height: 20px;
-}
+
 .Mac .gridMac .cellGridMac {
   /* border: solid red 1px; */
   text-align: center;
@@ -684,7 +724,6 @@ header a:hover {
 }
 
 .macAccessories, .creditMac{
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -726,26 +765,36 @@ margin: auto 2vw auto 0;
 margin: 0 120px;
 }
 .Mac .freeCashHelp{
-border: solid black;
-height: 35vh;
 margin: 0 2vw;
 display: flex;
-justify-content: space-between;
+flex-direction: column;
+}
+.Mac .freeCashHelp .texte{
+padding : 0 30px !important;
+text-justify: top;
+}
+.Mac .freeCashHelp .bottom{
+display: flex;
+}
+.Mac .freeCashHelp .images{
+display: flex;
+justify-content: space-around;
+}
+.Mac .freeCashHelp .square{
+margin : auto 0;
+height: 40px !important;
+width: 40px !important;
 }
 .Mac .freeCashHelp .freeDelivery {
-border: solid black 0.1px;
-height: 100%;
+/* height: 100%; */
 width: 100%;
 }
 .Mac .freeCashHelp .cashBack {
-border: solid black 0.1px;
-height: 100%;
-margin: 0 2vh;
+/* height: 100%; */
 width: 100%;
 }
 .Mac .freeCashHelp .helpBuy {
-border: solid black 0.1px;
-height: 100%;
+/* height: 100%; */
 width: 100%;
 }
 .Mac .powerAndEcosystem {

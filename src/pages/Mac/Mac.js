@@ -1,4 +1,5 @@
 import {AppCaroussel,ProAppsCaroussel} from "./caroussels"
+import Banner from "./bannerP"
 import superCharged from '/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/hero_macbook_pro_14_16__0y2t2v3g4hu2_large.jpeg'
 import maxPro from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/compare_icon_m1_pro_max__d1toavnfl1m6_large.png"
 import mOne from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/compare_icon_m1__dsskrswqk7wy_large.png"
@@ -27,9 +28,11 @@ import acmi from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/a
 import tile_monterey from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/tile_monterey__bm1x7sttegty_large.jpeg"
 import icon_finance from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon-finance__fk30uafhm76u_large.svg"
 import icon_help from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon-help__cwmazkux9uaa_large.svg"
-import icon_apple_pay from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/apple_pay_logo__d2j4vxi85iaa_large.png"
-import  icon_apple_news from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/apple_news_plus_logo__cggpupc1mpci_large.png"
-import  icon_apple_arcade from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/logo_apple_arcade__mvq317ljfkqe_large.png"
+import icon_apple_pay from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/apple_pay_logo__d2j4vxi85iaa_large.png"
+import icon_apple_news from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/apple_news_plus_logo__cggpupc1mpci_large.png"
+import icon_apple_arcade from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/logo_apple_arcade__mvq317ljfkqe_large.png"
+
+
 const Mac = () => {
   return (
     <div className="Mac">
@@ -37,7 +40,7 @@ const Mac = () => {
         <div className="texte">
           <div className="new">New</div>
           <div className="subtitle">MacBook Pro</div>
-          <h3>Supercharged for pros.</h3>
+          <div>Supercharged for pros.</div>
           <div className="price">From $1999</div>
           <div className="Buy">Buy</div>
           <div className="LearnMore">Learn more {'>'}</div>
@@ -45,7 +48,8 @@ const Mac = () => {
         <img src={superCharged} alt="macbook"></img>
       </div>
       <div className="topGridMac">
-        LA JE METTRAIS UN COMPONANT BIEN LINKÉ BIEN CLEAN CODE
+        <h3>Wich Mac is rigth for you ?</h3>
+        <Banner/>
       </div>
       <div className="gridMac">
         <img src={mOne} alt="macIcon" className="cellGridMac"></img>
@@ -120,15 +124,37 @@ const Mac = () => {
         </div>
       </div>
       <div className="freeCashHelp">
+      <div className="images">
+      <img src={icon_delivery} className="square" alt="icon_delivery"></img>
+      <img src={icon_finance} alt="icon_finance"></img>
+      <img src={icon_help}  heigth='56px' width='47px'alt="icon_help"></img>
+      </div>
+      <div className="bottom">
         <div className="freeDelivery">
-          <img src={icon_delivery} alt="icon_delivery"></img>
+          <div className="texte">
+        <div className="subtitle">Free delivery</div> 
+        <p style={{fontSize : "22px"} }>And free returns. See checkout
+for delivery dates.</p>
+          <div className="LearnMore">Learn more {'>'}</div>
+          </div>
         </div>
         <div className="cashBack">
-          <img src={icon_finance} alt="icon_finance"></img>
+          <div className="texte">
+
+        <div className="subtitle">Get 3% Daily Cash back with Apple Card</div> 
+        <p style={{fontSize : "22px"} }>And pay over time, interest‑free when you choose to check out with Apple Card Monthly Installments.*</p>
+          <div className="LearnMore">Learn more {'>'}</div>
+          </div>
         </div>
         <div className="helpBuy">
-          <img src={icon_help} alt="icon_help"></img>
+          <div className="texte">
+
+        <div className="subtitle">Get help buying</div> 
+        <p style={{fontSize : "22px"} }>Have a question? Call a Specialist or chat online. Call 1‑800-MY‑APPLE.</p>
+          <div className="LearnMore">Learn more {'>'}</div>
+          </div>
         </div>
+      </div>
       </div>
       <h2 className="WhatisMac">What makes a Mac a Mac?</h2>
       <div className="powerAndEcosystem">
