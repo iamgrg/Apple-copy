@@ -785,6 +785,10 @@ margin : auto 0;
 height: 40px !important;
 width: 40px !important;
 }
+
+.Mac .cashBack .texte{
+  padding: 0 10px !important;
+}
 .Mac .freeCashHelp .freeDelivery {
 /* height: 100%; */
 width: 100%;
@@ -913,7 +917,17 @@ width: 100%;
   margin : auto;
   text-align: center;
 }
-
+.Mac .apps{
+  text-align: center;
+}
+.Mac p{
+  font-size: 18px;
+  line-height: 1.47059;
+  font-weight: 350;
+  letter-spacing: -.022em;
+  color : rgba(0, 0, 0, 0.788);
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 .Mac .appsCaroussel .textAppCaroussel p{
   font-size: 18px;
   line-height: 1.47059;

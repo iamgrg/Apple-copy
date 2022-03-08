@@ -188,12 +188,12 @@ for delivery dates.</p>
       </div>
       <div className="apps">
         <h2>Built-in Apps</h2>
-        <h3>Powerful creativity and productivity tools live inside every Mac — apps that help you explore, connect, and work more efficiently.</h3>
+        <p>Powerful creativity and productivity tools live inside every Mac — apps that help you explore, connect, and work more efficiently.</p>
       </div>
       <AppCaroussel />
       <div className="apps">
         <h2>Pro Apps</h2>
-        <h3>For professionals ready to push their creativity, these industry-leading apps offer maximum control over editing, processing, and output of music and film</h3>
+        <p>For professionals ready to push their creativity, these industry-leading apps offer maximum control over editing, processing, and output of music and film</p>
       </div>
         <ProAppsCaroussel />
       <h2 className="moreOfMac">Get more out of Mac</h2>
