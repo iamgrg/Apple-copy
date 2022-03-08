@@ -58,11 +58,13 @@ const Ipad = () => {
       <div className="iPadMini wideSection">
         <div className="WindowTextDisplay">
           <div className="New">New</div>
-          <div className="Title">iPad</div>
-          <img
-            src={mini_script__bjahejz6luqa_large}
-            alt="mini_script__bjahejz6luqa_large"
-          ></img>
+          <div className="withLogo">
+            <div className="Title">iPad</div>
+            <img
+              src={mini_script__bjahejz6luqa_large}
+              alt="mini_script__bjahejz6luqa_large"
+            ></img>
+          </div>
           <div className="subtitle">
             Mega power.<br></br>Mini sized.
           </div>
@@ -111,6 +113,7 @@ const Ipad = () => {
         </div>
         <img src={ipad_pro_large} alt="ipad_pro_large"></img>
       </div>
+      <h2 className="Title">Which iPad is right for you?</h2>
       <div className="gridIpad">
         <div className="celliPadGrid product">
           <img src={compare_ipad_Pro} alt="compare_ipad_Pro"></img>
@@ -160,21 +163,24 @@ const Ipad = () => {
           </div>
         </div>
         <div className="celliPadGrid">
-          12.9” and 11”
+          <strong style={{fontWeight : "500", fontSize  : "18px"}}>12.9” and 11”</strong>
           <div className="description">
             12.9” Liquid Retina XDR display1 11” Liquid Retina display1
           </div>
         </div>
         <div className="celliPadGrid">
-          10.9”
+          <strong style={{fontWeight : "500", fontSize  : "18px"}}>10.9”</strong>
+
           <div className="description">Liquid Retina display1</div>
         </div>
         <div className="celliPadGrid">
-          10.2”
+          <strong style={{fontWeight : "500", fontSize  : "18px"}}>10.2”</strong>
+
           <div className="description">Retina display</div>
         </div>
         <div className="celliPadGrid">
-          8.3”
+          <strong style={{fontWeight : "500", fontSize  : "18px"}}> 8.3”</strong>
+
           <div className="description">Liquid Retina display1</div>
         </div>
         <div className="celliPadGrid">
@@ -371,7 +377,7 @@ const Ipad = () => {
           <div className="description">Works with Bluetooth keyboards</div>
         </div>
       </div>
-      <div className="tradeAndDiscount wideSection">
+      <div className="tradeAndDiscount flexSection">
         <div className="cardDiscount">
           <div className="WindowTextDisplay">
             <div className="TitleSideProduct">
@@ -444,7 +450,7 @@ const Ipad = () => {
       </div>
       <h2 className="ipadEssential Title">iPad essentials</h2>
       <div className="acessIpad">
-        <div className="pencil">
+        <div className="pencil gridCell">
           <div className="WindowTextDisplay">
             <div className="Title">Apple Pencil</div>
             <p>Dream it up. Jot it down.</p>
@@ -453,16 +459,16 @@ const Ipad = () => {
           </div>
           <img src={apple_pencil} alt="apple_pencil"></img>
         </div>
-        <div className="keyboard">
+        <div className="keyboard gridCell">
+        <img src={smart_keyboard} alt="smart_keyboard"></img>
           <div className="WindowTextDisplay">
             <div className="Title">Keyboards for iPad</div>
             <p>Keyboards that have you covered.</p>
             <div className="explainMore">Learn more {">"}</div>
             <div className="explainMore">Shop {">"}</div>
           </div>
-          <img src={smart_keyboard} alt="smart_keyboard"></img>
         </div>
-        <div className="audio">
+        <div className="audio gridCell">
           <div className="WindowTextDisplay">
             <div className="Title">Magic runs in the family.</div>
             <p>Explore all AirPods models and find the best ones for you.</p>
@@ -470,7 +476,7 @@ const Ipad = () => {
           </div>
           <img src={airpods_c3so} alt="airpods_c3so"></img>
         </div>
-        <div className="shell">
+        <div className="shell gridCell">
           <div className="WindowTextDisplay">
             <div className="Title">Accessories</div>
             <p>
@@ -483,13 +489,13 @@ const Ipad = () => {
         </div>
       </div>
       <h2 className="whatIsIpad Title">What makes an iPad an iPad?</h2>
-      <div className="whyDiv wideSection">
+      <div className="whyDiv flexSection">
+      <img src={why_ipad} alt="why_ipad"></img>
         <div className="WindowTextDisplay">
           <div className="Title">Why iPad</div>
           <p>Yes, it does that. And then some</p>
           <div className="explainMore">Learn more {">"}</div>
         </div>
-        <img src={why_ipad} alt="why_ipad"></img>
         <div className="why"></div>
       </div>
       <div className="ipadOs">
@@ -500,7 +506,7 @@ const Ipad = () => {
         </div>
         <img src={ipados} alt="ipados"></img>
       </div>
-      <div className="cloudAndPay wideSection">
+      <div className="cloudAndPay flexSection">
         <div className="iCould">
           <div className="WindowTextDisplay">
             <div className="Title">iCloud</div>
@@ -526,7 +532,7 @@ const Ipad = () => {
       </div>
       <h2 className="moreOfIpad Title">Get more of your iPad</h2>
       <div className="virtualSessionDiv ">
-        <div className="virtualSession wideSection">
+        <div className="virtualSession flexSection">
           <div className="WindowTextDisplay">
             <div className="subtitle">Today at Apple</div>
             <div className="Title">Virtual Sessions</div>
@@ -536,7 +542,7 @@ const Ipad = () => {
           <img src={virtual_session} alt="virtual_session"></img>
         </div>
       </div>
-      <div className="wideSection">
+      <div className="flexSection">
         <div className="iOneImg">
           <img src={bundle} alt="bundle"></img>
         </div>

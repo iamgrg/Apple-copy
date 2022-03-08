@@ -1,3 +1,6 @@
+import "./iPhone.css";
+
+
 import airpods__cqcmeyp084k2_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/airpods__cqcmeyp084k2_large.jpeg";
 import airtag__b81h4czx41yq_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/airtag__b81h4czx41yq_large.jpeg";
 import apple_arcade__fqbvua482wqe_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/iphone/apple_arcade__fqbvua482wqe_large.jpeg";

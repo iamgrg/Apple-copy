@@ -1,0 +1,148 @@
+.iphone {
+    margin-top: 42px;
+    border: solid gold;
+  }
+  .iphone h2 {
+    border: solid red 0.1px;
+  }
+  .iphone .iphonePro {
+    border: solid black 0.1px;
+  }
+  .iphone .iphoneThirteen {
+    border: solid black 0.1px;
+  }
+  .iphone .guide {
+    border: solid black 0.1px;
+  }
+  .iphone .gridIphone {
+    border: solid black 0.1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .iphone .bundleServices {
+    border: solid black 0.1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .iphone .TradinAndAppleCard{
+    border: solid black 0.1px;
+    display: flex;
+  }
+  .iphone div{
+    border: solid black 0.1px;
+  }
+  /* .iphone .gridIphone .cellGridIphone {
+    border: solid black 0.1px;
+  }
+  .iphone .waysToBuy {
+    border: solid black 0.1px;
+  }
+ 
+  .iphone .Tradin {
+    border: solid black 0.1px;
+  }
+  .iphone .discountAndCredit {
+    border: solid black 0.1px;
+  }
+  .iphone .discount .credit {
+    border: solid black 0.1px;
+  }
+  .iphone .why {
+    border: solid black 0.1px;
+  }
+  .iphone .ftAcess {
+    border: solid black 0.1px;
+  }
+  .iphone .magSafeDiv {
+    border: solid black 0.1px;
+  }
+  .iphone .magSafeDiv .magSafeImg {
+    border: solid black 0.1px;
+  }
+  .iphone .magSafeDiv .magSafe {
+    border: solid black 0.1px;
+  }
+  .iphone .airTagDiv {
+    border: solid black 0.1px;
+  }
+  .iphone .airTagDiv .airTagImg {
+    border: solid black 0.1px;
+  }
+  .iphone .airTagDiv .airTag {
+    border: solid black 0.1px;
+  }
+  .iphone .airPods {
+    border: solid black 0.1px;
+  }
+  .iphone .freePayHelp {
+    border: solid black 0.1px;
+  }
+  .iphone .freePayHelp .free {
+    border: solid black 0.1px;
+  }
+  .iphone .freePayHelp .pay {
+    border: solid black 0.1px;
+  }
+  .iphone .freePayHelp .help {
+    border: solid black 0.1px;
+  }
+  .iphone .whatMakesIphone {
+    border: solid black 0.1px;
+  }
+  .iphone .iosFiveteen {
+    border: solid black 0.1px;
+  }
+  .iphone .switchAndPrivacy {
+    border: solid black 0.1px;
+  }
+  .iphone .moreOfIphone {
+    border: solid black 0.1px;
+  }
+  .iphone .VirtualSessionDiv {
+    border: solid black 0.1px;
+  }
+  .iphone .VirtualSessionDiv .VirtualSession {
+    border: solid black 0.1px;
+  }
+  .iphone .VirtualSessionDiv .VirtualSessionImg {
+    border: solid black 0.1px;
+  }
+  .iphone .One .iOneImg {
+    border: solid black 0.1px;
+  }
+  .iphone .One .iOne {
+    border: solid black 0.1px;
+  }
+  .iphone .bundleServices .TV {
+    border: solid black 0.1px;
+  }
+  .iphone .bundleServices .music {
+    border: solid black 0.1px;
+  }
+  .iphone .bundleServices .news {
+    border: solid black 0.1px;
+  }
+  .iphone .bundleServices .arcade {
+    border: solid black 0.1px;
+  }
+  .iphone .bundleServices .fitness {
+    border: solid black 0.1px;
+  }
+  .iphone .bundleServices .giftCard {
+    border: solid black 0.1px;
+  }
+  
+  .iphone .research {
+    border: solid black 0.1px;
+  }
+  
+  .iphone .switchAndPrivacy .switch {
+    border: solid black 0.1px;
+  }
+  .iphone .switchAndPrivacy .privacy {
+    border: solid black 0.1px;
+  }
+  .iphone .switchAndPrivacy {
+    border: solid black 0.1px;
+  }
+  */
