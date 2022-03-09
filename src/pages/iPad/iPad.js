@@ -163,23 +163,25 @@ const Ipad = () => {
           </div>
         </div>
         <div className="celliPadGrid">
-          <strong style={{fontWeight : "500", fontSize  : "18px"}}>12.9” and 11”</strong>
+          <strong style={{ fontWeight: "500", fontSize: "18px" }}>
+            12.9” and 11”
+          </strong>
           <div className="description">
             12.9” Liquid Retina XDR display1 11” Liquid Retina display1
           </div>
         </div>
         <div className="celliPadGrid">
-          <strong style={{fontWeight : "500", fontSize  : "18px"}}>10.9”</strong>
+          <strong style={{ fontWeight: "500", fontSize: "18px" }}>10.9”</strong>
 
           <div className="description">Liquid Retina display1</div>
         </div>
         <div className="celliPadGrid">
-          <strong style={{fontWeight : "500", fontSize  : "18px"}}>10.2”</strong>
+          <strong style={{ fontWeight: "500", fontSize: "18px" }}>10.2”</strong>
 
           <div className="description">Retina display</div>
         </div>
         <div className="celliPadGrid">
-          <strong style={{fontWeight : "500", fontSize  : "18px"}}> 8.3”</strong>
+          <strong style={{ fontWeight: "500", fontSize: "18px" }}> 8.3”</strong>
 
           <div className="description">Liquid Retina display1</div>
         </div>
@@ -460,7 +462,7 @@ const Ipad = () => {
           <img src={apple_pencil} alt="apple_pencil"></img>
         </div>
         <div className="keyboard gridCell">
-        <img src={smart_keyboard} alt="smart_keyboard"></img>
+          <img src={smart_keyboard} alt="smart_keyboard"></img>
           <div className="WindowTextDisplay">
             <div className="Title">Keyboards for iPad</div>
             <p>Keyboards that have you covered.</p>
@@ -490,7 +492,7 @@ const Ipad = () => {
       </div>
       <h2 className="whatIsIpad Title">What makes an iPad an iPad?</h2>
       <div className="whyDiv flexSection">
-      <img src={why_ipad} alt="why_ipad"></img>
+        <img src={why_ipad} alt="why_ipad"></img>
         <div className="WindowTextDisplay">
           <div className="Title">Why iPad</div>
           <p>Yes, it does that. And then some</p>

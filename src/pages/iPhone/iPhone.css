@@ -5,19 +5,11 @@
   .iphone h2 {
     border: solid red 0.1px;
   }
-  .iphone .iphonePro {
-    border: solid black 0.1px;
-  }
-  .iphone .iphoneThirteen {
-    border: solid black 0.1px;
-  }
-  .iphone .guide {
-    border: solid black 0.1px;
-  }
-  .iphone .gridIphone {
+  .iphone .gridIphone{
     border: solid black 0.1px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 15%;
   }
   .iphone .bundleServices {
     border: solid black 0.1px;
@@ -31,118 +23,96 @@
   .iphone div{
     border: solid black 0.1px;
   }
-  /* .iphone .gridIphone .cellGridIphone {
-    border: solid black 0.1px;
+  .iphone .cellGridIphone{
+    text-align: center;
+    margin: 20px auto;
+    height: auto;
+    width: auto;
   }
-  .iphone .waysToBuy {
-    border: solid black 0.1px;
-  }
- 
-  .iphone .Tradin {
-    border: solid black 0.1px;
-  }
-  .iphone .discountAndCredit {
-    border: solid black 0.1px;
-  }
-  .iphone .discount .credit {
-    border: solid black 0.1px;
-  }
-  .iphone .why {
-    border: solid black 0.1px;
-  }
-  .iphone .ftAcess {
-    border: solid black 0.1px;
-  }
-  .iphone .magSafeDiv {
-    border: solid black 0.1px;
-  }
-  .iphone .magSafeDiv .magSafeImg {
-    border: solid black 0.1px;
-  }
-  .iphone .magSafeDiv .magSafe {
-    border: solid black 0.1px;
-  }
-  .iphone .airTagDiv {
-    border: solid black 0.1px;
-  }
-  .iphone .airTagDiv .airTagImg {
-    border: solid black 0.1px;
-  }
-  .iphone .airTagDiv .airTag {
-    border: solid black 0.1px;
-  }
-  .iphone .airPods {
-    border: solid black 0.1px;
-  }
-  .iphone .freePayHelp {
-    border: solid black 0.1px;
-  }
-  .iphone .freePayHelp .free {
-    border: solid black 0.1px;
-  }
-  .iphone .freePayHelp .pay {
-    border: solid black 0.1px;
-  }
-  .iphone .freePayHelp .help {
-    border: solid black 0.1px;
-  }
-  .iphone .whatMakesIphone {
-    border: solid black 0.1px;
-  }
-  .iphone .iosFiveteen {
-    border: solid black 0.1px;
-  }
-  .iphone .switchAndPrivacy {
-    border: solid black 0.1px;
-  }
-  .iphone .moreOfIphone {
-    border: solid black 0.1px;
-  }
-  .iphone .VirtualSessionDiv {
-    border: solid black 0.1px;
-  }
-  .iphone .VirtualSessionDiv .VirtualSession {
-    border: solid black 0.1px;
-  }
-  .iphone .VirtualSessionDiv .VirtualSessionImg {
-    border: solid black 0.1px;
-  }
-  .iphone .One .iOneImg {
-    border: solid black 0.1px;
-  }
-  .iphone .One .iOne {
-    border: solid black 0.1px;
-  }
-  .iphone .bundleServices .TV {
-    border: solid black 0.1px;
-  }
-  .iphone .bundleServices .music {
-    border: solid black 0.1px;
-  }
-  .iphone .bundleServices .news {
-    border: solid black 0.1px;
-  }
-  .iphone .bundleServices .arcade {
-    border: solid black 0.1px;
-  }
-  .iphone .bundleServices .fitness {
-    border: solid black 0.1px;
-  }
-  .iphone .bundleServices .giftCard {
-    border: solid black 0.1px;
-  }
-  
-  .iphone .research {
-    border: solid black 0.1px;
-  }
-  
-  .iphone .switchAndPrivacy .switch {
-    border: solid black 0.1px;
-  }
-  .iphone .switchAndPrivacy .privacy {
-    border: solid black 0.1px;
-  }
-  .iphone .switchAndPrivacy {
-    border: solid black 0.1px;
-  }
-  */
+  .iphone .gridIphone img{
+    margin : auto auto 0 auto !important;
+}
+
+  .iphone .WindowTextDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border : solid red;
+    color: #1d1d1f;
+}
+.iphone .Title{
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+
+.iphone  .TitleSideProduct{
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -.003em;
+}
+.iphone .subtitle{
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: .009em;
+}
+
+.iphone p{
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;  
+}
+.iphone .buy{
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  min-width: 28px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 20px 0;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+}
+
+.iphone .explainMore{
+  margin-top: 15px;
+  color: #06c;
+}
+.iphone .explainMore:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.iphone .TwoLinks{
+  display : flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.iphone .wideSection{
+  height: 90vh;
+  position: relative;
+}
+
+.iphone .wideSection .WindowTextDisplay{
+  position: absolute;
+  top : 0;
+  left: 30%;
+  right: 30%;
+}
+.iphone .wideSection img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
