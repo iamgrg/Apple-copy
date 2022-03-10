@@ -1,3 +1,4 @@
+
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
 import Mac from "../../../Assets/Store/caroussel/store-card-mac-nav-202110.png";

@@ -93,22 +93,22 @@ const Caroussel = (props) => {
   };
 
   return (
-    <div className="Caroussel">
-      <div className="CarousselTitle">
+    <div className="">
+      <div className="">
         <strong>{props.title[0]}</strong>
         {props.title[1]}
       </div>
-      <div className="CarousselMain">
-        <button className="left" style={styleBtnLeft} onClick={shiftLeft}>
-          <div className="arrow" id="left"></div>
+      <div className="">
+        <button className="" style={styleBtnLeft} onClick={shiftLeft}>
+          <div className="" id="left"></div>
         </button>
-        <div className="focus">
-          <div className="divCards" style={style}>
+        <div className="">
+          <div className="" style={style}>
             {props.Cards}
           </div>
         </div>
-        <button className="right" style={styleBtnRigth} onClick={shiftRight}>
-          <div className="arrow" id="right"></div>
+        <button className="" style={styleBtnRigth} onClick={shiftRight}>
+          <div className="" id="right"></div>
         </button>
       </div>
     </div>

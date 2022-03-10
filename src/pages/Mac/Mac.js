@@ -1,3 +1,4 @@
+import './mac.css'
 import {AppCaroussel,ProAppsCaroussel} from "./caroussels"
 import Banner from "./bannerP"
 import superCharged from '/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/hero_macbook_pro_14_16__0y2t2v3g4hu2_large.jpeg'
@@ -35,56 +36,56 @@ import icon_apple_arcade from "/Users/gregoire/Documents/Projet code/Odin_projec
 
 const Mac = () => {
   return (
-    <div className="Mac">
-      <div className="superCharged">
-        <div className="texte">
-          <div className="new">New</div>
-          <div className="subtitle">MacBook Pro</div>
+    <div className="">
+      <div className="">
+        <div className="">
+          <div className="">New</div>
+          <div className="">MacBook Pro</div>
           <div>Supercharged for pros.</div>
-          <div className="price">From $1999</div>
-          <div className="Buy">Buy</div>
-          <div className="LearnMore">Learn more {'>'}</div>
+          <div className="">From $1999</div>
+          <div className="">Buy</div>
+          <div className="">Learn more {'>'}</div>
         </div>
         <img src={superCharged} alt="macbook"></img>
       </div>
-      <div className="topGridMac">
+      <div className="">
         <h3>Wich Mac is rigth for you ?</h3>
         <Banner/>
       </div>
-      <div className="gridMac">
-        <img src={mOne} alt="macIcon" className="cellGridMac"></img>
-        <img src={mOne} alt="macIcon" className="cellGridMac"></img>
-        <img src={maxPro} alt="macIcon" className="cellGridMac"></img>
-        <div className="cellGridMac">8-core</div>
-        <div className="cellGridMac">8-core</div>
-        <div className="cellGridMac">10-core</div>
-        <div className="cellGridMac">8-core</div>
-        <div className="cellGridMac">8-core</div>
-        <div className="cellGridMac">32-core</div>
-        <img src={memory} alt="macIcon" className="cellGridMac"></img>
-        <img src={memory} alt="macIcon" className="cellGridMac"></img>
-        <img src={memory} alt="macIcon" className="cellGridMac"></img>
-        <div className="cellGridMac">2TB</div>
-        <div className="cellGridMac">2TB</div>
-        <div className="cellGridMac">8TB</div>
-        <div className="cellGridMac">13.3"</div>
-        <div className="cellGridMac">13.3"</div>
-        <div className="cellGridMac">14.2 or 16.2"</div>
-        <img src={baterry} alt="macIcon" className="cellGridMac"></img>
-        <img src={baterry} alt="macIcon" className="cellGridMac"></img>
-        <img src={baterry} alt="macIcon" className="cellGridMac"></img>
-        <img src={camera} alt="macIcon" className="cellGridMac"></img>
-        <img src={camera} alt="macIcon" className="cellGridMac"></img>
-        <img src={camera} alt="macIcon" className="cellGridMac"></img>
-        <div className="cellGridMac">2.8 lb.</div>
-        <div className="cellGridMac">3.0 lb.</div>
-        <div className="cellGridMac">3.5 lb. or 4.7lb..</div>
-        <img src={touchId} alt="macIcon" className="cellGridMac"></img>
-        <img src={touchBar} alt="macIcon" className="cellGridMac"></img>
-        <img src={touchId} alt="macIcon" className="cellGridMac"></img>
+      <div className="">
+        <img src={mOne} alt="macIcon" className=""></img>
+        <img src={mOne} alt="macIcon" className=""></img>
+        <img src={maxPro} alt="macIcon" className=""></img>
+        <div className="">8-core</div>
+        <div className="">8-core</div>
+        <div className="">10-core</div>
+        <div className="">8-core</div>
+        <div className="">8-core</div>
+        <div className="">32-core</div>
+        <img src={memory} alt="macIcon" className=""></img>
+        <img src={memory} alt="macIcon" className=""></img>
+        <img src={memory} alt="macIcon" className=""></img>
+        <div className="">2TB</div>
+        <div className="">2TB</div>
+        <div className="">8TB</div>
+        <div className="">13.3"</div>
+        <div className="">13.3"</div>
+        <div className="">14.2 or 16.2"</div>
+        <img src={baterry} alt="macIcon" className=""></img>
+        <img src={baterry} alt="macIcon" className=""></img>
+        <img src={baterry} alt="macIcon" className=""></img>
+        <img src={camera} alt="macIcon" className=""></img>
+        <img src={camera} alt="macIcon" className=""></img>
+        <img src={camera} alt="macIcon" className=""></img>
+        <div className="">2.8 lb.</div>
+        <div className="">3.0 lb.</div>
+        <div className="">3.5 lb. or 4.7lb..</div>
+        <img src={touchId} alt="macIcon" className=""></img>
+        <img src={touchBar} alt="macIcon" className=""></img>
+        <img src={touchId} alt="macIcon" className=""></img>
       </div>
-      <div className="cardDiscount">
-        <div className="texte">
+      <div className="">
+        <div className="">
           <strong style={{ fontSize: "48px", fontWeight: "500" }}>
             Get 3% Daily Cash back with Apple Card.
           </strong>{" "}
@@ -94,215 +95,215 @@ const Mac = () => {
             And pay for your new Mac over 12 months, interest‑free when you
             choose to check out with Apple Card Monthly Installments.*
           </p>
-          <div className="LearnMore">Learn More {'>'}</div>
+          <div className="">Learn More {'>'}</div>
         </div>
         <img src={acmi} alt="acmi"></img>
       </div>
-      <div className="accessAndCred">
-        <div className="macAccessories">
-          <div className="texte">
-            <div className="subtitle">Accessories</div>
+      <div className="">
+        <div className="">
+          <div className="">
+            <div className="">Accessories</div>
             <strong style={{ fontSize: "48px", fontWeight: "500" }}>
               Explore Mac accessories.
             </strong>
-            <div className="Shop">Shop</div>
+            <div className="">Shop</div>
           </div>
           <img src={macAccess} alt="macAcessories"></img>
         </div>
-        <div className="creditMac">
-          <div className="texte">
-            <div className="subtitle">Apple Trade In</div>
+        <div className="">
+          <div className="">
+            <div className="">Apple Trade In</div>
             <strong style={{ fontSize: "48px", fontWeight: "500" }}>
               Get credit toward a new Mac.
             </strong>{" "}
             <br></br>
             <br></br>Just trade in your eligible computer for credit or recycle
             it for free. It’s good for you and the planet.9
-            <div className="LearnMore">Find your trade‑in value</div>
+            <div className="">Find your trade‑in value</div>
           </div>
           <img src={trade_in_mac} alt="trade_in_mac"></img>
         </div>
       </div>
-      <div className="freeCashHelp">
-      <div className="images">
-      <img src={icon_delivery} className="square" alt="icon_delivery"></img>
+      <div className="">
+      <div className="">
+      <img src={icon_delivery} className="" alt="icon_delivery"></img>
       <img src={icon_finance} alt="icon_finance"></img>
       <img src={icon_help}  heigth='56px' width='47px'alt="icon_help"></img>
       </div>
-      <div className="bottom">
-        <div className="freeDelivery">
-          <div className="texte">
-        <div className="subtitle">Free delivery</div> 
+      <div className="">
+        <div className="">
+          <div className="">
+        <div className="">Free delivery</div> 
         <p style={{fontSize : "22px"} }>And free returns. See checkout
 for delivery dates.</p>
-          <div className="LearnMore">Learn more {'>'}</div>
+          <div className="">Learn more {'>'}</div>
           </div>
         </div>
-        <div className="cashBack">
-          <div className="texte">
+        <div className="">
+          <div className="">
 
-        <div className="subtitle">Get 3% Daily Cash back with Apple Card</div> 
+        <div className="">Get 3% Daily Cash back with Apple Card</div> 
         <p style={{fontSize : "22px"} }>And pay over time, interest‑free when you choose to check out with Apple Card Monthly Installments.*</p>
-          <div className="LearnMore">Learn more {'>'}</div>
+          <div className="">Learn more {'>'}</div>
           </div>
         </div>
-        <div className="helpBuy">
-          <div className="texte">
+        <div className="">
+          <div className="">
 
-        <div className="subtitle">Get help buying</div> 
+        <div className="">Get help buying</div> 
         <p style={{fontSize : "22px"} }>Have a question? Call a Specialist or chat online. Call 1‑800-MY‑APPLE.</p>
-          <div className="LearnMore">Learn more {'>'}</div>
+          <div className="">Learn more {'>'}</div>
           </div>
         </div>
       </div>
       </div>
-      <h2 className="WhatisMac">What makes a Mac a Mac?</h2>
-      <div className="powerAndEcosystem">
-        <div className="power">
-        <div className="texte">
-        <div className="subtitle">Why Mac</div> 
+      <h2 className="">What makes a Mac a Mac?</h2>
+      <div className="">
+        <div className="">
+        <div className="">
+        <div className="">Why Mac</div> 
         <strong style={{ fontSize: "48px", fontWeight: "500" }}>Incredible power. Incredibly simple. </strong>
-          <div className="LearnMore">Learn More {'>'}</div>
+          <div className="">Learn More {'>'}</div>
           </div>
           <img src={why_mac} alt="why_mac"></img>
         </div>
-        <div className="Ecosystem">
-        <div className="texte">
-        <div className="subtitle">Continuity</div> 
+        <div className="">
+        <div className="">
+        <div className="">Continuity</div> 
         <strong style={{ fontSize: "48px", fontWeight: "500" }}>All your devices. One seamless experience. </strong>
-          <div className="LearnMore">Learn More {'>'}</div>
+          <div className="">Learn More {'>'}</div>
           </div>
           <img src={continuity} alt="continuity"></img>
         </div>
       </div>
-      <div className="macOS">
-      <div className="texte">
-        <div className="subtitle">macOS Monterey</div> 
+      <div className="">
+      <div className="">
+        <div className="">macOS Monterey</div> 
         <strong style={{ fontSize: "48px", fontWeight: "500" }}>High powered meets “Hi everyone.”</strong>
-          <div className="MacOsLinks">
-            <div className="LearnMore">Update Now</div>
-            <div className="LearnMore">Learn More {'>'}</div>
+          <div className="">
+            <div className="">Update Now</div>
+            <div className="">Learn More {'>'}</div>
           </div>
           </div>
         <img src={tile_monterey} alt="tile_monterey"></img>
       </div>
-      <div className="apps">
+      <div className="">
         <h2>Built-in Apps</h2>
         <p>Powerful creativity and productivity tools live inside every Mac — apps that help you explore, connect, and work more efficiently.</p>
       </div>
       <AppCaroussel />
-      <div className="apps">
+      <div className="">
         <h2>Pro Apps</h2>
         <p>For professionals ready to push their creativity, these industry-leading apps offer maximum control over editing, processing, and output of music and film</p>
       </div>
         <ProAppsCaroussel />
-      <h2 className="moreOfMac">Get more out of Mac</h2>
-      <div className="virtualDiv">
-        <div className="virtualSession">
-        <div className="texte">
-        <div className="subtitle">Today at Apple</div> 
+      <h2 className="">Get more out of Mac</h2>
+      <div className="">
+        <div className="">
+        <div className="">
+        <div className="">Today at Apple</div> 
         <strong style={{ fontSize: "48px", fontWeight: "500" }}>Virtual Sessions </strong>
         <p style={{padding : "20px 10px 20px 10px", fontSize : "20px"} }>Learn the basics of using Mac
 live with Apple Creatives.</p>
-          <div className="LearnMore">Sign up {'>'}</div>
+          <div className="">Sign up {'>'}</div>
           </div>
         </div>
-        <div className="virtualSessionImg">
+        <div className="">
           <img src={virtual_sessions} alt="virtual_sessions"></img>
         </div>
       </div>
-      <div className="Appleone">
-        <div className="iOne">
+      <div className="">
+        <div className="">
           <img src={bundle_gaaz} alt="bundle_gaaz"></img>
         </div>
-        <div className="iOneImg">
+        <div className="">
         <img src={apple_one_logo} alt="apple_one_logo"></img>
-        <div className="texte">
-        <div className="subtitle">Bundle up to six Apple services. And enjoy more for less.</div> 
-        <div className="BundleLinks">
-            <div className="LearnMore">Try it free</div>
-            <div className="LearnMore">Learn More {'>'}</div>
+        <div className="">
+        <div className="">Bundle up to six Apple services. And enjoy more for less.</div> 
+        <div className="">
+            <div className="">Try it free</div>
+            <div className="">Learn More {'>'}</div>
           </div>
           </div>
         </div>
       </div>
-      <div className="bundleServices">
-        <div className="bundleService TV">
-          <div className="texte">
+      <div className="">
+        <div className="">
+          <div className="">
           <img src={apple_TV_plus_logo} alt="apple_TV_plus_logo"></img>
-          <div className="subtitle">Get 3 months of Apple TV+ free
+          <div className="">Get 3 months of Apple TV+ free
 when you buy a Mac.</div> 
-        <div className="BundleLinks">
-            <div className="LearnMore">Try it free</div>
-            <div className="LearnMore">Learn More {'>'}</div>
+        <div className="">
+            <div className="">Try it free</div>
+            <div className="">Learn More {'>'}</div>
           </div>
           </div>
-          <div className="video" style={{color : 'white'}}>Flemme de mettre la video pour l'instant</div>
+          <div className="" style={{color : 'white'}}>Flemme de mettre la video pour l'instant</div>
         </div>
-        <div className="bundleService pay">
-          <div className="texte">
+        <div className="">
+          <div className="">
           <img src={icon_apple_pay} alt="icon_apple_pay"></img>
-          <div className="subtitle">The safer way to make secure,
+          <div className="">The safer way to make secure,
 contactless purchases in stores and online.</div> 
-            <div className="LearnMore">Learn More {'>'}</div>
+            <div className="">Learn More {'>'}</div>
           </div>
           <img src={apple_pay} alt="apple_pay"></img>
         </div>
-        <div className="bundleService arcade">
-          <div className="texte">
+        <div className="">
+          <div className="">
           <img src={icon_apple_arcade} alt="icon_apple_arcade"></img>
-          <div className="subtitle">Get 3 months of Apple Arcade free
+          <div className="">Get 3 months of Apple Arcade free
 when you buy a Mac.</div>
-        <div className="BundleLinks">
-            <div className="LearnMore">Try it free</div>
-            <div className="LearnMore">Learn More {'>'}</div>
+        <div className="">
+            <div className="">Try it free</div>
+            <div className="">Learn More {'>'}</div>
           </div>
           </div>
           <img src={appleArcade} alt="aracde"></img>
         </div>
-        <div className="bundleService news">
-          <div className="texte">
+        <div className="">
+          <div className="">
           <img src={icon_apple_news} alt="icon_apple_news"></img>
-          <div className="subtitle">Hundreds of magazines and
+          <div className="">Hundreds of magazines and
 leading newspapers. One subscription</div>
-        <div className="BundleLinks">
-            <div className="LearnMore">Try it free</div>
-            <div className="LearnMore">Learn More {'>'}</div>
+        <div className="">
+            <div className="">Try it free</div>
+            <div className="">Learn More {'>'}</div>
           </div>
           </div>
           <img src={apple_news_plus_half} alt="apple_news_plus_half"></img>
         </div>
       </div>
-      <div className="giftCard">
-        <div className="texte">
+      <div className="">
+        <div className="">
         <img src={apple_gift_card_logo} alt="apple_gift_card_logo"></img>
-          <div className="subtitle">For everything and everyone.</div>
-          <div className="BundleLinks">
-            <div className="LearnMore">Learn More {'>'}</div>
-            <div className="LearnMore">Buy {'>'}</div>
+          <div className="">For everything and everyone.</div>
+          <div className="">
+            <div className="">Learn More {'>'}</div>
+            <div className="">Buy {'>'}</div>
           </div>
           </div>
-          <div className="giftcardImage">
+          <div className="">
           <img src={apple_gift_card_tile} alt="apple_gift_card_tile"></img>
           </div>
       </div>
-      <div className="work">
-      <div className="texte">
+      <div className="">
+      <div className="">
         <strong style={{ fontSize: "48px", fontWeight: "500" }}>Apple at Work</strong>
-        <div className="subtitle">Get the power to take your business to the next level.</div> 
+        <div className="">Get the power to take your business to the next level.</div> 
           <div className="">
-            <div className="LearnMore">Learn about Apple at Work {'>'}</div>
-            <div className="LearnMore">See why Mac means business {'>'}</div>
+            <div className="">Learn about Apple at Work {'>'}</div>
+            <div className="">See why Mac means business {'>'}</div>
           </div>
           </div>
         <img src={appleAtWork} alt="appleAtWork"></img>
       </div>
-      <div className="education">
-      <div className="texte">
+      <div className="">
+      <div className="">
         <strong style={{ fontSize: "48px", fontWeight: "500" }}>Apple and Education</strong>
-        <div className="subtitle">Empowering educators and students to move the world forward</div> 
+        <div className="">Empowering educators and students to move the world forward</div> 
           <div className="">
-            <div className="LearnMore">Learn about Apple and Education {'>'}</div>
+            <div className="">Learn about Apple and Education {'>'}</div>
           </div>
           </div>
         <img src={education} alt="education"></img>

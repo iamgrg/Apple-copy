@@ -21,17 +21,17 @@ const CheckOut = (props) => {
 
 
   return (
-    <div className="CheckOutPage">
-      <div className="Intro">
+    <div className="">
+      <div className="">
         <h1>{Intro[0]}</h1>
         <h2>{Intro[1]}</h2>
       </div>
       {cards}
-      <div className="Final">
-        <div className="left"></div>
-        <div className="rigth">
-          <div className="Top"></div>
-          <div className="Bottom">
+      <div className="">
+        <div className=""></div>
+        <div className="">
+          <div className=""></div>
+          <div className="">
             <div>Total</div>
             <div>${price}</div>
           </div>

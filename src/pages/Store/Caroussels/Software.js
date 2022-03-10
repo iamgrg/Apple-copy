@@ -1,3 +1,4 @@
+
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
 import Join from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-50-todayatapple-202108.jpeg";

@@ -1,3 +1,4 @@
+
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
 import Education from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-40-edu-202108.jpeg";

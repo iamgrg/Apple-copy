@@ -1,3 +1,5 @@
+
+
 const Card = (props) => {
   const style = {
     backgroundImage: `url(${props.img})`,

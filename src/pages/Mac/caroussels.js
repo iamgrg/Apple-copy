@@ -1,3 +1,4 @@
+
 import {useState } from "react"
 import macDisplay from "../../Assets/Mac/bia_hw__eb4197lfok2u_large.jpeg"
 import iMovie from "../../Assets/Mac/bia_imovie__eufhd8vcyo02_large.jpeg"
@@ -47,40 +48,40 @@ const AppCaroussel = () => {
     ])
     const styleInit = [{},{},{},{},{},{},{}]
     const imgs = [
-      <img src={Safari} alt="iMovie"className="screen"></img>,
-      <img src={Photos} alt="iMovie"className="screen"></img>,
-      <img src={iMovie} alt="iMovie"className="screen"></img>,
-      <img src={GarageBand} alt="iMovie"className="screen"></img>,
-      <img src={Pages} alt="iMovie"className="screen"></img>,
-      <img src={Numbers} alt="iMovie"className="screen"></img>,
-      <img src={Keynote} alt="iMovie"className="screen"></img>,
+      <img src={Safari} alt="iMovie"className=""></img>,
+      <img src={Photos} alt="iMovie"className=""></img>,
+      <img src={iMovie} alt="iMovie"className=""></img>,
+      <img src={GarageBand} alt="iMovie"className=""></img>,
+      <img src={Pages} alt="iMovie"className=""></img>,
+      <img src={Numbers} alt="iMovie"className=""></img>,
+      <img src={Keynote} alt="iMovie"className=""></img>,
     ];
     const texts = [
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Safari has innovative features that let you enjoy more of the web. In even more ways. Built-in privacy features help protect your information and keep your Mac secure. An updated start page helps you easily and quickly save, find, and share your favorite sites. And Siri suggestions surface bookmarks, links from your reading list, iCloud Tabs, links you receive in Messages, and more.</p>
         <button>Learn more about Safari {'\u003e'}</button>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Keep your growing library organized and accessible. Perfect your images and create beautiful gifts for sharing. And with iCloud Photos, you can store a lifetime’s worth of photos and videos in the cloud.</p>
         <button>Learn more about Photos {'\u003e'}</button>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Tell stories like never before. A simple design and intuitive editing features make it easy to create beautiful 4K movies and Hollywood-style trailers.</p>
         <button>Learn more about iMovie {'\u003e'}</button>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>The easiest way to create great-sounding songs on your Mac. With an intuitive interface and access to a complete sound library, it’s never been easier to learn, play, record, and share music like a pro.</p>
         <p>Learn more about GarageBand {'\u003e'}</p>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>This powerful word processor gives you everything you need to create documents that look beautiful. And read beautifully. It lets you work seamlessly between Mac, iOS, and iPadOS devices. And work effortlessly with people who use Microsoft Word.</p>
         <p>Learn more about Pages {'\u003e'}</p>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Create sophisticated spreadsheets with dramatic interactive charts, tables, and images that paint a revealing picture of your data. Work seamlessly between Mac, iOS, and iPadOS devices. And work effortlessly with people who use Microsoft Excel.</p>
         <p>Learn more about Numbers {'\u003e'}</p>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Bring your ideas to life with beautiful presentations. Employ powerful tools and dazzling effects that keep your audience engaged. Work seamlessly between Mac, iOS, and iPadOS devices. And work effortlessly with people who use Microsoft PowerPoint.</p>
         <p>Learn more about Keynote {'\u003e'}</p>
     </div>,
@@ -96,31 +97,31 @@ const AppCaroussel = () => {
     ]
 
     const CarousselChoice = [
-        <div onClick={() => {select(imgs[0])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[0])}} className="">
             <img src={IconSafari} alt="IconSafari"/>
             {buttons[0]}
         </div>,
-        <div onClick={() => {select(imgs[1])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[1])}} className="">
             <img src={IconPhotos} alt="IconPhotos"/>
             {buttons[1]}
         </div>,
-        <div onClick={() => {select(imgs[2])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[2])}} className="">
             <img src={IconImovie} alt="IconImovie"/>
             {buttons[2]}
         </div>,
-        <div onClick={() => {select(imgs[3])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[3])}} className="">
             <img src={IconGarageBand} alt="IconGarageBand"/>
             {buttons[3]}
         </div>,
-        <div onClick={() => {select(imgs[4])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[4])}} className="">
             <img src={IconPages} alt="IconPages"/>
             {buttons[4]}
         </div>,
-        <div onClick={() => {select(imgs[5])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[5])}} className="">
             <img src={IconNumbers} alt="IconNumbers"/>
             {buttons[5]}
         </div>,
-        <div onClick={() => {select(imgs[6])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[6])}} className="">
             <img src={IconKeynote} alt="IconKeynote"/>
             {buttons[6]}
         </div>,
@@ -145,12 +146,12 @@ const AppCaroussel = () => {
     // })
     const [mainImg, setMainImg] = useState(imgs[0]);
     const [mainText, setMainText] = useState(texts[0]);
-    return <div className="appsCaroussel"> 
-        <div className="menu">
+    return <div className=""> 
+        <div className="">
             {CarousselChoice}
         </div>
         {mainText}
-        <div className="macDisplay">
+        <div className="">
         <img src={macDisplay} alt="macDisplay"></img>
         {mainImg}
         </div>
@@ -208,30 +209,30 @@ const ProAppsCaroussel = () => {
     ])
     const styleInit = [{},{},{},{},{},{},{}]
     const imgs = [
-      <img src={LogicPro} alt="iMovie"className="screen"></img>,
-      <img src={MainStage} alt="iMovie"className="screen"></img>,
-      <img src={Motion} alt="iMovie"className="screen"></img>,
-      <img src={Compressor} alt="iMovie"className="screen"></img>,
-      <img src={FinalCut} alt="iMovie"className="screen"></img>,
+      <img src={LogicPro} alt="iMovie"className=""></img>,
+      <img src={MainStage} alt="iMovie"className=""></img>,
+      <img src={Motion} alt="iMovie"className=""></img>,
+      <img src={Compressor} alt="iMovie"className=""></img>,
+      <img src={FinalCut} alt="iMovie"className=""></img>,
     ];
     const texts = [
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Logic Pro puts a complete recording and MIDI production studio on your Mac, with everything you need to write, record, edit, and mix like never before. And with a huge collection of full-featured plug-ins along with thousands of sounds and loops, you’ll have everything you need to go from first inspiration to final master, no matter what kind of music you want to create.</p>
         <button>Learn more about Logic Pro {'\u003e'}</button>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Take your Mac to the stage with a full-screen interface optimized for live performance, flexible hardware control, and a massive collection of plug-ins and sounds that are fully compatible with Logic Pro.</p>
         <button>Learn more about MainStage {'\u003e'}</button>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Built to meet the needs of today’s creative editors, Final Cut Pro offers revolutionary video editing, powerful media organization, and incredible performance optimized for Mac computers and macOS Monterey</p>
         <button>Learn more about Final Cut Pro {'\u003e'}</button>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Motion is a powerful motion graphics tool that makes it easy to create cinematic 2D and 3D titles, fluid transitions, and realistic effects in real time.</p>
         <p>Learn more about Motion {'\u003e'}</p>
     </div>,
-    <div className="textAppCaroussel">
+    <div className="">
         <p>Add power and flexibility for exporting projects from Final Cut Pro. Customize output settings, work faster with distributed encoding, and easily package your film for the iTunes Store.</p>
         <p>Learn more about Compressor {'\u003e'}</p>
     </div>
@@ -245,23 +246,23 @@ const ProAppsCaroussel = () => {
     ]
 
     const CarousselChoice = [
-        <div onClick={() => {select(imgs[0])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[0])}} className="">
             <img src={IconLogicPro} alt="IconLogicPro"/>
             {buttons[0]}
         </div>,
-        <div onClick={() => {select(imgs[1])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[1])}} className="">
             <img src={IconMainStage} alt="IconMainStage"/>
             {buttons[1]}
         </div>,
-        <div onClick={() => {select(imgs[2])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[2])}} className="">
             <img src={IconMotion} alt="IconMotion"/>
             {buttons[2]}
         </div>,
-        <div onClick={() => {select(imgs[3])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[3])}} className="">
             <img src={IconCOmpressor} alt="IconCOmpressor"/>
             {buttons[3]}
         </div>,
-        <div onClick={() => {select(imgs[4])}} className="CarousselChoice">
+        <div onClick={() => {select(imgs[4])}} className="">
             <img src={IconFinalCut} alt="IconFinalCut"/>
             {buttons[4]}
         </div>,
@@ -286,18 +287,18 @@ const ProAppsCaroussel = () => {
     // })
     const [mainImg, setMainImg] = useState(imgs[0]);
     const [mainText, setMainText] = useState(texts[0]);
-    return <div className="proAppsCaroussel"> 
-        <div className="menu">
+    return <div className=""> 
+        <div className="">
             {CarousselChoice}
         </div>
         {mainText}
-        <div className="macBookDispley">
+        <div className="">
         <img src={macBookDispley} alt="macBookDispley"></img>
         {mainImg}
         </div>
-        <div className="AppStore">
+        <div className="">
         <img src={icon_appstore} alt="icon_appstore"></img>
-        <div className="txtAppStore">The Mac App Store features rich editorial content and great apps for Mac. <strong className="LearnMore">Explore the Mac App Store</strong></div>
+        <div className="">The Mac App Store features rich editorial content and great apps for Mac. <strong className="">Explore the Mac App Store</strong></div>
       </div>
     </div>
 }

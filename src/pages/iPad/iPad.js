@@ -54,471 +54,471 @@ import why_ipad from "/Users/gregoire/Documents/Projet code/Odin_project/portfol
 
 const Ipad = () => {
   return (
-    <div className="iPad">
-      <div className="iPadMini wideSection">
-        <div className="WindowTextDisplay">
-          <div className="New">New</div>
-          <div className="withLogo">
-            <div className="Title">iPad</div>
+    <div className="">
+      <div className="">
+        <div className="">
+          <div className="">New</div>
+          <div className="">
+            <div className="">iPad</div>
             <img
               src={mini_script__bjahejz6luqa_large}
               alt="mini_script__bjahejz6luqa_large"
             ></img>
           </div>
-          <div className="subtitle">
+          <div className="">
             Mega power.<br></br>Mini sized.
           </div>
           <p>From $499</p>
-          <div className="buy">buy</div>
-          <div className="explainMore">Learn more {">"}</div>
+          <div className="">buy</div>
+          <div className=""> Learn more {">"}</div>
         </div>
         <img src={ipad_mini_large} alt="ipad_mini_large"></img>
       </div>
-      <div className="ipadSimple wideSection">
+      <div className="">
         <img src={ipad_10_2_7_Large} alt="ipad_10_2_7_Large"></img>
-        <div className="WindowTextDisplay">
-          <div className="New">New</div>
-          <div className="Title">iPad</div>
-          <div className="subtitle">
+        <div className="">
+          <div className="">New</div>
+          <div className="">iPad</div>
+          <div className="">
             Delightfully capable.<br></br> Surprisingly affordable.
           </div>
           <p>From $329</p>
-          <div className="buy">buy</div>
-          <div className="explainMore">Learn more {">"}</div>
+          <div className="">buy</div>
+          <div className=""> Learn more {">"}</div>
         </div>
       </div>
-      <div className="ipadAir wideSection">
-        <div className="WindowTextDisplay">
-          <div className="Title">iPad Air</div>
-          <div className="subtitle">
+      <div className="">
+        <div className="">
+          <div className="">iPad Air</div>
+          <div className="">
             Powerful. Colorful.<br></br>
             Wonderful.
           </div>
           <p>From $599</p>
-          <div className="buy">buy</div>
-          <div className="explainMore">Learn more {">"}</div>
+          <div className="">buy</div>
+          <div className=""> Learn more {">"}</div>
         </div>
         <img src={ipad_air_large} alt="ipad_air_large"></img>
       </div>
-      <div className="ipadPro wideSection">
-        <div className="WindowTextDisplay">
-          <div className="Title">iPad Pro</div>
-          <div className="subtitle">
+      <div className="">
+        <div className="">
+          <div className="">iPad Pro</div>
+          <div className="">
             The ultimate<br></br>
             iPad experience.
           </div>
           <p>From $799</p>
-          <div className="buy">buy</div>
-          <div className="explainMore">Learn more {">"}</div>
+          <div className="">buy</div>
+          <div className=""> Learn more {">"}</div>
         </div>
         <img src={ipad_pro_large} alt="ipad_pro_large"></img>
       </div>
-      <h2 className="Title">Which iPad is right for you?</h2>
-      <div className="gridIpad">
-        <div className="celliPadGrid product">
+      <h2 className="">Which iPad is right for you?</h2>
+      <div className="">
+        <div className="">
           <img src={compare_ipad_Pro} alt="compare_ipad_Pro"></img>
-          <div className="WindowTextDisplay">
-            <div className="New">New</div>
-            <div className="Title">iPad Pro</div>
-            <div className="subtitle">he ultimate iPad experience.</div>
+          <div className="">
+            <div className="">New</div>
+            <div className="">iPad Pro</div>
+            <div className="">he ultimate iPad experience.</div>
             <p>From $799</p>
-            <div className="buy">buy</div>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className="">buy</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
-        <div className="celliPadGrid product">
+        <div className="">
           <img src={compare_ipad_air} alt="compare_ipad_air"></img>
-          <div className="WindowTextDisplay">
-            <div className="Title">iPad Air</div>
-            <div className="subtitle">Powerful. Colorful. Wonderful.</div>
+          <div className="">
+            <div className="">iPad Air</div>
+            <div className="">Powerful. Colorful. Wonderful.</div>
             <p>From $599</p>
-            <div className="buy">buy</div>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className="">buy</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
-        <div className="celliPadGrid product">
+        <div className="">
           <img src={compare_ipad_10_2} alt="compare_ipad_10_2"></img>
-          <div className="WindowTextDisplay">
-            <div className="New">New</div>
-            <div className="Title">iPad</div>
-            <div className="subtitle">
+          <div className="">
+            <div className="">New</div>
+            <div className="">iPad</div>
+            <div className="">
               Delightfully capable. Surprisingly affordable.
             </div>
             <p>From $329</p>
-            <div className="buy">buy</div>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className="">buy</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
-        <div className="celliPadGrid product">
+        <div className="">
           <img src={compare_ipad_mini} alt="compare_ipad_mini"></img>
-          <div className="WindowTextDisplay">
-            <div className="New">New</div>
-            <div className="Title">iPad mini</div>
-            <div className="subtitle">
+          <div className="">
+            <div className="">New</div>
+            <div className="">iPad mini</div>
+            <div className="">
               Mega power.<br></br>Mini sized.
             </div>
             <p>From $499</p>
-            <div className="buy">buy</div>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className="">buy</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
-        <div className="celliPadGrid">
+        <div className="">
           <strong style={{ fontWeight: "500", fontSize: "18px" }}>
             12.9” and 11”
           </strong>
-          <div className="description">
+          <div className="">
             12.9” Liquid Retina XDR display1 11” Liquid Retina display1
           </div>
         </div>
-        <div className="celliPadGrid">
+        <div className="">
           <strong style={{ fontWeight: "500", fontSize: "18px" }}>10.9”</strong>
 
-          <div className="description">Liquid Retina display1</div>
+          <div className="">Liquid Retina display1</div>
         </div>
-        <div className="celliPadGrid">
+        <div className="">
           <strong style={{ fontWeight: "500", fontSize: "18px" }}>10.2”</strong>
 
-          <div className="description">Retina display</div>
+          <div className="">Retina display</div>
         </div>
-        <div className="celliPadGrid">
+        <div className="">
           <strong style={{ fontWeight: "500", fontSize: "18px" }}> 8.3”</strong>
 
-          <div className="description">Liquid Retina display1</div>
+          <div className="">Liquid Retina display1</div>
         </div>
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_m1_chip}
             alt="compare_m1_chip"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">M1 chip</div>
+          <div className="">M1 chip</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_a14_chip}
             alt="compare_a14_chip"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">A14 Bionic chip</div>
+          <div className="">A14 Bionic chip</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_a13_chip}
             alt="compare_a13_chip"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">A13 Bionic chip</div>
+          <div className="">A13 Bionic chip</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_a15_chip}
             alt="compare_a15_chip"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">A15 Bionic chip</div>
+          <div className="">A15 Bionic chip</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_usbc_tunderbolt}
             alt="compare_usbc_tunderbolt"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">
+          <div className="">
             USB-C connector with support for Thunderbolt / USB 4
           </div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_usbc}
             alt="compare_usbc"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">USB-C connector</div>
+          <div className="">USB-C connector</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_lightning}
             alt="compare_lightning"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">Lightning connector</div>
+          <div className="">Lightning connector</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_usbc}
             alt="compare_usbc"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">USB-C connector</div>
+          <div className="">USB-C connector</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_cellulat_5g}
             alt="compare_cellulat_5g"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">5G cellular</div>
+          <div className="">5G cellular</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_cellular_4g}
             alt="compare_cellular_4g"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">4G LTE cellular</div>
+          <div className="">4G LTE cellular</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_cellular_4g}
             alt="compare_cellular_4g"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">4G LTE cellular2</div>
+          <div className="">4G LTE cellular2</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_cellulat_5g}
             alt="compare_cellulat_5g"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">5G cellular</div>
+          <div className="">5G cellular</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_pencil}
             alt="compare_pencil"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">
+          <div className="">
             Works with Apple Pencil (2nd generation)
           </div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_pencil}
             alt="compare_pencil"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">
+          <div className="">
             Works with Apple Pencil (2nd generation)
           </div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_pencil}
             alt="compare_pencil"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">
+          <div className="">
             Works with Apple Pencil (1st generation)
           </div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_pencil}
             alt="compare_pencil"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">
+          <div className="">
             Works with Apple Pencil (2nd generation)
           </div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_magic_keyboard}
             alt="compare_magic_keyboard"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">
+          <div className="">
             Works with Magic Keyboard and Smart Keyboard Folio
           </div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_magic_keyboard}
             alt="compare_magic_keyboard"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">
+          <div className="">
             Works with Magic Keyboard and Smart Keyboard Folio
           </div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_smart_keyboard}
             alt="compare_smart_keyboard"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">Works with Smart Keyboard</div>
+          <div className="">Works with Smart Keyboard</div>
         </div>
 
-        <div className="celliPadGrid">
+        <div className="">
           <img
             src={compare_bluetooth_keyborard}
             alt="compare_bluetooth"
-            className="celliPadGrid"
+            className=""
           ></img>
-          <div className="description">Works with Bluetooth keyboards</div>
+          <div className="">Works with Bluetooth keyboards</div>
         </div>
       </div>
-      <div className="tradeAndDiscount flexSection">
-        <div className="cardDiscount">
-          <div className="WindowTextDisplay">
-            <div className="TitleSideProduct">
+      <div className="">
+        <div className="">
+          <div className="">
+            <div className="">
               Get 3% Daily Cash back with Apple Card.
             </div>
             <p>
               And pay over time, interest‑free when you choose to check out with
               Apple Card Monthly Installments.*
             </p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={apple_card} alt="apple_card"></img>
         </div>
-        <div className="trade">
-          <div className="WindowTextDisplay">
-            <div className="TitleSideProduct">
+        <div className="">
+          <div className="">
+            <div className="">
               Trade in your current iPad and get credit toward a new one.
             </div>
             <p>
               With Apple Trade In, just give us your eligible iPad and get
               credit for a new one. It’s good for you and the planet.**
             </p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={trade_in} alt="trade_in"></img>
         </div>
       </div>
-      <div className="freePayCustom">
-        <div className="free ad">
-          <div className="WindowTextDisplay">
+      <div className="">
+        <div className="">
+          <div className="">
             <img
               src={icon_delivery__bs8f0g1fv0eu_large}
               alt="icon_delivery__bs8f0g1fv0eu_large"
             ></img>
-            <div className="subtitle">Free delivery</div>
+            <div className="">Free delivery</div>
             <p>And free returns. See checkout for delivery dates.</p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
-        <div className="pay ad">
-          <div className="WindowTextDisplay">
+        <div className="">
+          <div className="">
             <img
               src={icon_financing__ctvbzjuwg02u_large}
               alt="icon_financing__ctvbzjuwg02u_large"
             ></img>
 
-            <div className="subtitle">Pay monthly at 0% APR</div>
+            <div className="">Pay monthly at 0% APR</div>
             <p>
               You can pay over time when you choose to check out with Apple Card
               Monthly Installments.*
             </p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
-        <div className="custom ad">
-          <div className="WindowTextDisplay">
+        <div className="">
+          <div className="">
             <img
               src={icon_engraving__cv9oecgi9r0i_large}
               alt="icon_engraving__cv9oecgi9r0i_large"
             ></img>
 
-            <div className="subtitle">Personalize it</div>
+            <div className="">Personalize it</div>
             <p>
               Engrave your iPad with your name or a personal note — free. Only
               at Apple.
             </p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
       </div>
-      <h2 className="ipadEssential Title">iPad essentials</h2>
-      <div className="acessIpad">
-        <div className="pencil gridCell">
-          <div className="WindowTextDisplay">
-            <div className="Title">Apple Pencil</div>
+      <h2 className="">iPad essentials</h2>
+      <div className="">
+        <div className="">
+          <div className="">
+            <div className="">Apple Pencil</div>
             <p>Dream it up. Jot it down.</p>
-            <div className="explainMore">Learn more {">"}</div>
-            <div className="explainMore">Shop {">"}</div>
+            <div className=""> Learn more {">"}</div>
+            <div className=""> Shop {">"}</div>
           </div>
           <img src={apple_pencil} alt="apple_pencil"></img>
         </div>
-        <div className="keyboard gridCell">
+        <div className="">
           <img src={smart_keyboard} alt="smart_keyboard"></img>
-          <div className="WindowTextDisplay">
-            <div className="Title">Keyboards for iPad</div>
+          <div className="">
+            <div className="">Keyboards for iPad</div>
             <p>Keyboards that have you covered.</p>
-            <div className="explainMore">Learn more {">"}</div>
-            <div className="explainMore">Shop {">"}</div>
+            <div className=""> Learn more {">"}</div>
+            <div className=""> Shop {">"}</div>
           </div>
         </div>
-        <div className="audio gridCell">
-          <div className="WindowTextDisplay">
-            <div className="Title">Magic runs in the family.</div>
+        <div className="">
+          <div className="">
+            <div className="">Magic runs in the family.</div>
             <p>Explore all AirPods models and find the best ones for you.</p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={airpods_c3so} alt="airpods_c3so"></img>
         </div>
-        <div className="shell gridCell">
-          <div className="WindowTextDisplay">
-            <div className="Title">Accessories</div>
+        <div className="">
+          <div className="">
+            <div className="">Accessories</div>
             <p>
               Explore covers, cases, and more to help you get the most from your
               iPad.
             </p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={accessories} alt="accessories"></img>
         </div>
       </div>
-      <h2 className="whatIsIpad Title">What makes an iPad an iPad?</h2>
-      <div className="whyDiv flexSection">
+      <h2 className="">What makes an iPad an iPad?</h2>
+      <div className="">
         <img src={why_ipad} alt="why_ipad"></img>
-        <div className="WindowTextDisplay">
-          <div className="Title">Why iPad</div>
+        <div className="">
+          <div className="">Why iPad</div>
           <p>Yes, it does that. And then some</p>
-          <div className="explainMore">Learn more {">"}</div>
+          <div className=""> Learn more {">"}</div>
         </div>
-        <div className="why"></div>
+        <div className=""></div>
       </div>
-      <div className="ipadOs">
-        <div className="WindowTextDisplay">
-          <div className="Title">iPadOS 15</div>
+      <div className="">
+        <div className="">
+          <div className="">iPadOS 15</div>
           <p>Work wonders. With ease.</p>
-          <div className="explainMore">Learn more {">"}</div>
+          <div className=""> Learn more {">"}</div>
         </div>
         <img src={ipados} alt="ipados"></img>
       </div>
-      <div className="cloudAndPay flexSection">
-        <div className="iCould">
-          <div className="WindowTextDisplay">
-            <div className="Title">iCloud</div>
+      <div className="">
+        <div className="">
+          <div className="">
+            <div className="">iCloud</div>
             <p>The best place for all your photos, files, and more.</p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={icloud} alt="icloud"></img>
         </div>
-        <div className="pay">
-          <div className="WindowTextDisplay">
+        <div className="">
+          <div className="">
             <img
               src={apple_pay_logo__0afgonu1cya6_large}
               alt="apple_pay_logo__0afgonu1cya6_large"
@@ -527,92 +527,92 @@ const Ipad = () => {
               The safer way to make secure, contactless purchases in stores and
               online.
             </p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={apple_pay} alt="apple_pay"></img>
         </div>
       </div>
-      <h2 className="moreOfIpad Title">Get more of your iPad</h2>
-      <div className="virtualSessionDiv ">
-        <div className="virtualSession flexSection">
-          <div className="WindowTextDisplay">
-            <div className="subtitle">Today at Apple</div>
-            <div className="Title">Virtual Sessions</div>
+      <h2 className="">Get more of your iPad</h2>
+      <div className="">
+        <div className="">
+          <div className="">
+            <div className="">Today at Apple</div>
+            <div className="">Virtual Sessions</div>
             <p>Learn the basics of using iPad live with Apple Creatives.</p>
-            <div className="explainMore">Sign up {">"}</div>
+            <div className=""> Sign up {">"}</div>
           </div>
           <img src={virtual_session} alt="virtual_session"></img>
         </div>
       </div>
-      <div className="flexSection">
-        <div className="iOneImg">
+      <div className="">
+        <div className="">
           <img src={bundle} alt="bundle"></img>
         </div>
-        <div className="WindowTextDisplay">
+        <div className="">
           <img
             src={apple_one__dl47zojjyfe6_large}
             alt="apple_one__dl47zojjyfe6_large"
           ></img>
-          <div className="subtitle">
+          <div className="">
             Bundle up to six Apple services. And enjoy more for less.
           </div>
-          <div className="explainMore">Try it free {">"}</div>
-          <div className="explainMore">Learn more {">"}</div>
+          <div className=""> Try it free {">"}</div>
+          <div className=""> Learn more {">"}</div>
         </div>
-        <div className="iOne"></div>
+        <div className=""></div>
       </div>
-      <div className="bundleServices">
-        <div className="TV service">
-          <div className="WindowTextDisplay">
+      <div className="">
+        <div className="">
+          <div className="">
             <img
               src={apple_tv_plus_logo__ghwovsdrknyy_large}
               alt="apple_tv_plus_logo__ghwovsdrknyy_large"
             ></img>
             <p>Get 3 months of Apple TV+ free when you buy an iPad..</p>
-            <div className="explainMore">Try it free {">"}</div>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Try it free {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
         </div>
-        <div className="music service">
-          <div className="WindowTextDisplay">
+        <div className="">
+          <div className="">
             <img
               src={apple_music_logo__8kh0fy49wlue_large}
               alt="apple_music_logo__8kh0fy49wlue_large"
             ></img>
 
             <p>Over 90 million songs. Start listening for free today.</p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={apple_music} alt="apple_music"></img>
         </div>
 
-        <div className="fitness service">
-          <div className="WindowTextDisplay">
+        <div className="">
+          <div className="">
             <img
               src={logo_fitness_plus__gh7ew0rc0ve6_large}
               alt="logo_fitness_plus__gh7ew0rc0ve6_large"
             ></img>
             <p>The first fitness service powered by Apple Watch.</p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={fitness_plus} alt="fitness_plus"></img>
         </div>
 
-        <div className="arcade service">
-          <div className="WindowTextDisplay">
+        <div className="">
+          <div className="">
             <img
               src={apple_arcade_logo_tile__eou5pui8amc2_large}
               alt="apple_arcade_logo_tile__eou5pui8amc2_large"
             ></img>
 
             <p>Get 3 months of Apple Arcade free when you buy an iPad</p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={apple_arcade} alt="apple_arcade"></img>
         </div>
 
-        <div className="news service">
-          <div className="WindowTextDisplay darkBg">
+        <div className="">
+          <div className="">
             <img
               src={apple_news_plus_logo__el28q7xakiky_large}
               alt="apple_news_plus_logo__el28q7xakiky_large"
@@ -620,38 +620,38 @@ const Ipad = () => {
             <p>
               Hundreds of magazines and leading newspapers. One subscription.
             </p>
-            <div className="explainMore darkBg">Learn more {">"}</div>
+            <div className="">Learn more {">"}</div>
           </div>
           <img src={apple_news} alt="apple_news"></img>
         </div>
 
-        <div className="giftCard service">
-          <div className="WindowTextDisplay">
-            <div className="TitleSideProduct">
+        <div className="">
+          <div className="">
+            <div className="">
               <img
                 src={apple_gift_card_logo__fun9blihy5aq_large}
                 alt="apple_gift_card_logo__fun9blihy5aq_large"
               ></img>
             </div>
             <p>For everything and everyone.</p>
-            <div className="explainMore">Learn more {">"}</div>
+            <div className=""> Learn more {">"}</div>
           </div>
           <img src={apple_gift_card} alt="apple_gift_card"></img>
         </div>
 
-        <div className="eductation service">
-          <div className="WindowTextDisplay darkBg">
-            <div className="TitleSideProduct">Apple and Education</div>
+        <div className="">
+          <div className="">
+            <div className="">Apple and Education</div>
             <p>Empowering educators and students to move the world forward.</p>
-            <div className="explainMore darkBg">Learn more {">"}</div>
+            <div className="">Learn more {">"}</div>
           </div>
           <img src={ipad_for_education} alt="ipad_for_education"></img>
         </div>
 
-        <div className="work service">
-          <div className="WindowTextDisplay darkBg">
-            <div className="TitleSideProduct">Apple at Work</div>
-            <div className="explainMore darkBg">Learn more {">"}</div>
+        <div className="">
+          <div className="">
+            <div className="">Apple at Work</div>
+            <div className="">Learn more {">"}</div>
           </div>
           <img src={ipad_for_business} alt="ipad_for_business"></img>
         </div>

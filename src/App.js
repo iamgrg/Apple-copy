@@ -37,7 +37,7 @@ const add = (item) => {
 }
 
   return (
-    <div className="App">
+    <div className="">
       <Router>
         <Header items={items} setItems={setItems}/>
         <Routes>

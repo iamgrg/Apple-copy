@@ -1,3 +1,4 @@
+import './apple.css'
 import One_PA from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/One_PA.jpeg";
 import hero_iphone_13__f194u1rdooeq_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/hero_iphone_13__f194u1rdooeq_large.jpeg";
 import hero_watch__f05go333pz2i_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/hero_watch__f05go333pz2i_large.jpeg";
@@ -13,18 +14,18 @@ const Panel = (props) => {
   if (props.links.length > 0) {
     for (let i = 0; i < props.links.length; i++) {
       links.push(
-        <a key={i} className="link">
+        <a key={i} className="">
           {props.links[i]}
         </a>
       );
     }
   }
   return (
-    <div className="Panel" id={props.identity}>
-      <div className="InfoBox">
-        <div className="Title">{props.Title}</div>
-        <div className="Description">{props.Description}</div>
-        <div className="LinksBox">{links}</div>
+    <div className="" id={props.identity}>
+      <div className="">
+        <div className="">{props.Title}</div>
+        <div className="">{props.Description}</div>
+        <div className="">{links}</div>
       </div>
       <img src={props.img} alt={props.img}></img>
     </div>
@@ -33,7 +34,7 @@ const Panel = (props) => {
 
 const Apple = () => {
   return (
-    <div className="Apple">
+    <div className="">
       <Panel
         identity="iPhonePro"
         Title="iPhone 13 Pro"
@@ -55,7 +56,7 @@ const Apple = () => {
         links={["Learn More {'>'}", "Buy"]}
         img={hero_watch__f05go333pz2i_large}
       ></Panel>
-      <div className="TwoPanelsOneline">
+      <div className="">
         <Panel
           identity="fitness"
           Title="Fitness +"
@@ -71,7 +72,7 @@ const Apple = () => {
           img={tile_macbookpro__cx0ur0qg9biq_large}
         ></Panel>
       </div>
-      <div className="TwoPanelsOneline">
+      <div className="">
         <Panel
           identity="airPods"
           Title="AirPods"
@@ -87,7 +88,7 @@ const Apple = () => {
           img={tile_homepod_mini__b73w4z3ljymu_large}
         ></Panel>
       </div>
-      <div className="TwoPanelsOneline">
+      <div className="">
         <Panel
           identity="card"
           Title="Card"

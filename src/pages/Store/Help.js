@@ -5,11 +5,11 @@ import Bar from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/ap
 
 const Help = () => {
   return (
-    <div className="Help">
-      <div className="title">
+    <div className="">
+      <div className="">
         <strong>Help is here.</strong> Whenever and however you need it.
       </div>
-      <div className="Imgs">
+      <div className="">
         <Card
           type="SmallCard"
           key="0"
@@ -18,7 +18,7 @@ const Help = () => {
           height="500"
           texte="Shop one on one with a Specialist. Online or in store."
         ></Card>
-        <div className="twoCards">
+        <div className="">
           <Card
             type="SmallCard"
             key="0"

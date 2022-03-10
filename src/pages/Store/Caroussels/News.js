@@ -1,3 +1,4 @@
+
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
 import Valentine from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-40-vdayfeature-202201_GEO_US.jpeg";

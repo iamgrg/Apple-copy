@@ -6,7 +6,7 @@ import Sounds from "./Caroussels/Sounds";
 import Software from "./Caroussels/Software";
 import Groups from "./Caroussels/Groups";
 import Help from "./Help";
-
+import './store.css'
 const Store = () => {
   return (
     <div className="Store">

@@ -1,3 +1,4 @@
+
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
 import perfect from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/store-card-40-vdaygift-202201_GEO_US.jpeg";
