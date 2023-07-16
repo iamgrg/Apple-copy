@@ -1,9 +1,9 @@
 
-import grid_img_Mac_L from '/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/compare_mbp14_and_16__f2dhysusb5im_large.png'
-import grid_img_Mac_S from '/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/compare_mbp13__euj5z15300om_large.png'
-import grid_img_Mac_Air from '/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/compare_mba__fchj615oz0yi_large.png'
-import compare_switch_2_colors from '/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/compare_swatches_two_colors__dfe181bip0ya_large.png'
-import compare_switch_3_colors from '/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/compare_swatches_three_colors__bagzlsvl2ehu_large.png'
+import grid_img_Mac_L from '../../Assets/Mac/compare_mbp14_and_16__f2dhysusb5im_large.png'
+import grid_img_Mac_S from '../../Assets/Mac/compare_mbp13__euj5z15300om_large.png'
+import grid_img_Mac_Air from '../../Assets/Mac/compare_mba__fchj615oz0yi_large.png'
+import compare_switch_2_colors from '../../Assets/Mac/compare_swatches_two_colors__dfe181bip0ya_large.png'
+import compare_switch_3_colors from '../../Assets/Mac/compare_swatches_three_colors__bagzlsvl2ehu_large.png'
 const Banner = () => {
     return <div className="Banner">
         <div className="topGridCell Air">

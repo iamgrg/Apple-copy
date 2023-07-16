@@ -1,12 +1,12 @@
-import One_PA from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/One_PA.jpeg";
-import hero_iphone_13__f194u1rdooeq_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/hero_iphone_13__f194u1rdooeq_large.jpeg";
-import hero_watch__f05go333pz2i_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/hero_watch__f05go333pz2i_large.jpeg";
-import promo_el_deafo__ge0lcfxsw3ue_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/promo_el_deafo__ge0lcfxsw3ue_large.jpeg";
-import tile_airpods__fuv6vgn42y2q_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/tile_airpods__fuv6vgn42y2q_large.jpeg";
-import tile_apple_card__cwonh0wb00om_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/tile_apple_card__cwonh0wb00om_large.jpeg";
-import tile_applefitness__fdk8xvz0dvu6_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/tile_applefitness__fdk8xvz0dvu6_large.jpeg";
-import tile_homepod_mini__b73w4z3ljymu_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/tile_homepod_mini__b73w4z3ljymu_large.jpeg";
-import tile_macbookpro__cx0ur0qg9biq_large from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/home/tile_macbookpro__cx0ur0qg9biq_large.jpeg";
+import One_PA from "../Assets/home/One_PA.jpeg";
+import hero_iphone_13__f194u1rdooeq_large from "../Assets/home/hero_iphone_13__f194u1rdooeq_large.jpeg";
+import hero_watch__f05go333pz2i_large from "../Assets/home/hero_watch__f05go333pz2i_large.jpeg";
+import promo_el_deafo__ge0lcfxsw3ue_large from "../Assets/home/promo_el_deafo__ge0lcfxsw3ue_large.jpeg";
+import tile_airpods__fuv6vgn42y2q_large from "../Assets/home/tile_airpods__fuv6vgn42y2q_large.jpeg";
+import tile_apple_card__cwonh0wb00om_large from "../Assets/home/tile_apple_card__cwonh0wb00om_large.jpeg";
+import tile_applefitness__fdk8xvz0dvu6_large from "../Assets/home/tile_applefitness__fdk8xvz0dvu6_large.jpeg";
+import tile_homepod_mini__b73w4z3ljymu_large from "../Assets/home/tile_homepod_mini__b73w4z3ljymu_large.jpeg";
+import tile_macbookpro__cx0ur0qg9biq_large from "../Assets/home/tile_macbookpro__cx0ur0qg9biq_large.jpeg";
 
 const Panel = (props) => {
   let links = [];

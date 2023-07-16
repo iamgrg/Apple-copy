@@ -1,10 +1,10 @@
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
-import Education from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-40-edu-202108.jpeg";
-import Business from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-40-small-business-202108.jpeg";
-import Government from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-40-gov-202108.jpeg";
-import Veterans from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-50-homekit-202110_GEO_US.jpeg";
-import Refurbished from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-40-refurb-202108.jpeg";
+import Education from "../../../Assets/Store/store-card-40-edu-202108.jpeg";
+import Business from "../../../Assets/Store/store-card-40-small-business-202108.jpeg";
+import Government from "../../../Assets/Store/store-card-40-gov-202108.jpeg";
+import Veterans from "../../../Assets/Store/store-card-50-homekit-202110_GEO_US.jpeg";
+import Refurbished from "../../../Assets/Store/store-card-40-refurb-202108.jpeg";
 
 const Groups = () => {
   let Cards = [

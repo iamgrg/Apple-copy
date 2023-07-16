@@ -1,13 +1,13 @@
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
 import Mac from "../../../Assets/Store/caroussel/store-card-mac-nav-202110.png";
-import iPad from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/store-card-13-ipad-nav-202108.png";
-import iPhone from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/store-card-13-iphone-nav-202109_GEO_US.png";
-import Watch from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/store-card-13-watch-nav-202110.png";
-import Airpods from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/store-card-13-airpods-nav-202110.png";
-import AirTag from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/store-card-13-airtags-nav-202108.png";
-import TV from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/store-card-13-appletv-nav-202108.png";
-import homePods from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/store-card-13-homepod-nav-202110.png";
+import iPad from "../../../Assets/Store/caroussel/store-card-13-ipad-nav-202108.png";
+import iPhone from "../../../Assets/Store/caroussel/store-card-13-iphone-nav-202109_GEO_US.png";
+import Watch from "../../../Assets/Store/caroussel/store-card-13-watch-nav-202110.png";
+import Airpods from "../../../Assets/Store/caroussel/store-card-13-airpods-nav-202110.png";
+import AirTag from "../../../Assets/Store/caroussel/store-card-13-airtags-nav-202108.png";
+import TV from "../../../Assets/Store/caroussel/store-card-13-appletv-nav-202108.png";
+import homePods from "../../../Assets/Store/caroussel/store-card-13-homepod-nav-202110.png";
 import Accessories from "../../../Assets/Store/caroussel/store-card-13-accessories-nav-202109.png";
 import iCard from "../../../Assets/Store/caroussel/store-card-13-holiday-giftcards-asit-agc-nav-202111.png";
 

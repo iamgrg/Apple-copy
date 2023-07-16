@@ -1,13 +1,13 @@
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
-import perfect from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/store-card-40-vdaygift-202201_GEO_US.jpeg";
-import iphonePink from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/MM283.jpeg";
-import loop from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/ML673ref.jpeg";
-import wallet from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/MM0Q3.jpeg";
-import homePods from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/homepod-mini-select-blue-202110.jpeg";
-import iphoneBlue from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/MM0H3.jpeg";
-import iphonegreen from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/MM1Q3.jpeg";
-import accesories from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/caroussel/Valentine/store-card-40-vdayaccessories-202201.jpeg";
+import perfect from "../../../Assets/Store/caroussel/Valentine/store-card-40-vdaygift-202201_GEO_US.jpeg";
+import iphonePink from "../../../Assets/Store/caroussel/Valentine/MM283.jpeg";
+import loop from "../../../Assets/Store/caroussel/Valentine/ML673ref.jpeg";
+import wallet from "../../../Assets/Store/caroussel/Valentine/MM0Q3.jpeg";
+import homePods from "../../../Assets/Store/caroussel/Valentine/homepod-mini-select-blue-202110.jpeg";
+import iphoneBlue from "../../../Assets/Store/caroussel/Valentine/MM0H3.jpeg";
+import iphonegreen from "../../../Assets/Store/caroussel/Valentine/MM1Q3.jpeg";
+import accesories from "../../../Assets/Store/caroussel/Valentine/store-card-40-vdayaccessories-202201.jpeg";
 
 const StVal = () => {
   let Cards = [

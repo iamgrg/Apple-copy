@@ -17,7 +17,7 @@ import IconPhotos from "../../Assets/Mac/nav_icon_photos__f2izri0oyzee_large.jpe
 import IconSafari from "../../Assets/Mac/nav_icon_safari__b4hes9xilhjm_large.jpeg"
 
 
-import macBookDispley from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/gallery_hw__cc6xqmf7tbyq_large.png"
+import macBookDispley from "../../Assets/Mac/gallery_hw__cc6xqmf7tbyq_large.png"
 
 import IconLogicPro from "../../Assets/Mac/nav_icon_logicpro__ghlrlwvkxmy6_large.jpeg"
 import IconMainStage from "../../Assets/Mac/nav_icon_mainstage__qux1a93eo9mm_large.jpeg"
@@ -25,12 +25,12 @@ import IconMotion from "../../Assets/Mac/nav_icon_motion__ccrna97y89ua_large.jpe
 import IconCOmpressor from "../../Assets/Mac/nav_icon_compressor__fzftqvqqqkmm_large.jpeg"
 import IconFinalCut from "../../Assets/Mac/nav_icon_finalcut__gkqcowigoxaq_large.jpeg"
 
-import LogicPro from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_logicpro__dfv2sjloqkqe_large.jpeg"
-import MainStage from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_mainstage__ghx1p14qepym_large.jpeg"
-import Motion from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_motion__e8fjbzoh3vyq_large.jpeg"
-import Compressor from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_compressor__f9jt79x2r6a2_large.jpeg"
-import FinalCut from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/pro_finalcut__bcplnlmrhyjm_large.jpeg"
-import icon_appstore from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Mac/icon_appstore__ks6wdzcwx26a_large.png"
+import LogicPro from "../../Assets/Mac/pro_logicpro__dfv2sjloqkqe_large.jpeg"
+import MainStage from "../../Assets/Mac/pro_mainstage__ghx1p14qepym_large.jpeg"
+import Motion from "../../Assets/Mac/pro_motion__e8fjbzoh3vyq_large.jpeg"
+import Compressor from "../../Assets/Mac/pro_compressor__f9jt79x2r6a2_large.jpeg"
+import FinalCut from "../../Assets/Mac/pro_finalcut__bcplnlmrhyjm_large.jpeg"
+import icon_appstore from "../../Assets/Mac/icon_appstore__ks6wdzcwx26a_large.png"
 
 const AppCaroussel = () => {
     

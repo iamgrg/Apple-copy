@@ -1,7 +1,7 @@
-import Card from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/pages/Store/Caroussels/CardGen.js";
-import genius from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-50-specialist-202108.jpeg";
-import Session from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-25-apps-202108.jpeg";
-import Bar from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-25-genius-202108.jpeg";
+import Card from "../../pages/Store/Caroussels/CardGen.js";
+import genius from "../../Assets/Store/store-card-50-specialist-202108.jpeg";
+import Session from "../../Assets/Store/store-card-25-apps-202108.jpeg";
+import Bar from "../../Assets/Store/store-card-25-genius-202108.jpeg";
 
 const Help = () => {
   return (

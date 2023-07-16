@@ -1,9 +1,9 @@
 
-import Bag from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Panier/bag.svg"
-import Orders from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Panier/orders.svg"
-import SavedItems from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Panier/savedbyyou.svg"
-import Account from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Panier/account.svg"
-import SignIn from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Panier/signIn.svg"
+import Bag from "../Assets/Panier/bag.svg"
+import Orders from "../Assets/Panier/orders.svg"
+import SavedItems from "../Assets/Panier/savedbyyou.svg"
+import Account from "../Assets/Panier/account.svg"
+import SignIn from "../Assets/Panier/signIn.svg"
 import { Link } from "react-router-dom";
 
 const Panier = (props) => {

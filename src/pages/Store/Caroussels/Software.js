@@ -1,9 +1,9 @@
 import Card from "./CardGen";
 import Caroussel from "./Caroussel";
-import Join from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-50-todayatapple-202108.jpeg";
-import Six from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-50-subscriptions-202108_GEO_US.jpeg";
-import Pay from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-50-applepay-202110.jpeg";
-import Home from "/Users/gregoire/Documents/Projet code/Odin_project/portfolio/apple-fake/src/Assets/Store/store-card-50-homekit-202110_GEO_US.jpeg";
+import Join from "../../../Assets/Store/store-card-50-todayatapple-202108.jpeg";
+import Six from "../../../Assets/Store/store-card-50-subscriptions-202108_GEO_US.jpeg";
+import Pay from "../../../Assets/Store/store-card-50-applepay-202110.jpeg";
+import Home from "../../../Assets/Store/store-card-50-homekit-202110_GEO_US.jpeg";
 
 const Software = () => {
   let Cards = [
